@@ -1,4 +1,4 @@
-# {Template} System Design
+# Template System Design
 
 [← Back to System Design](../system-design.md)
 
