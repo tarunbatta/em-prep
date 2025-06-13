@@ -4,6 +4,32 @@
 
 This directory contains system design documentation for various systems, each organized in its own folder with detailed information about the system's architecture, components, and considerations.
 
+## Systems
+
+1. [Amazon Prime](amazon-prime/amazon-prime.md)
+1. [Autocomplete Search](autocomplete-search/autocomplete-search.md)
+1. [Chat System](chat-system/chat-system.md)
+1. [DocuSign](docusign/docusign.md)
+1. [Dropbox](dropbox/dropbox.md)
+1. [Email Archive](email-archive/email-archive.md)
+1. [Google Drive](google-drive/google-drive.md)
+1. [Google Docs](google-docs/google-docs.md)
+1. [Instagram](instagram/instagram.md)
+1. [News Feed](news-feed/news-feed.md)
+1. [Notification System](notification-system/notification-system.md)
+1. [Parking Garage](parking-garage/parking-garage.md)
+1. [PasteBin](pastebin/pastebin.md)
+1. [Rate Limiter](rate-limiter/rate-limiter.md)
+1. [Shopify](shopify/shopify.md)
+1. [Tag Service](tag-service/tag-service.md)
+1. [Template](template/template.md)
+1. [TicketMaster](ticketmaster/ticketmaster.md)
+1. [TikTok](tiktok/tiktok.md)
+1. [Uber](uber/uber.md)
+1. [URL Shortener](url-shortener/url-shortener.md)
+1. [Web Crawler](webcrawler/webcrawler.md)
+1. [YouTube](youtube/youtube.md)
+
 ## Easy to remember numbers for back-of-the-envelope calculations in system design interviews
 
 ### Powers of two table
@@ -76,29 +102,3 @@ Numbers for requests calculations
 100 million reqs/month -->  40 reqs/sec
 1 billion reqs/month   --> 400 reqs/sec
 ```
-
-## Systems
-
-1. [Amazon Prime](amazon-prime/amazon-prime.md)
-1. [Autocomplete Search](autocomplete-search/autocomplete-search.md)
-1. [Chat System](chat-system/chat-system.md)
-1. [DocuSign](docusign/docusign.md)
-1. [Dropbox](dropbox/dropbox.md)
-1. [Email Archive](email-archive/email-archive.md)
-1. [Google Drive](google-drive/google-drive.md)
-1. [Google Docs](google-docs/google-docs.md)
-1. [Instagram](instagram/instagram.md)
-1. [News Feed](news-feed/news-feed.md)
-1. [Notification System](notification-system/notification-system.md)
-1. [Parking Garage](parking-garage/parking-garage.md)
-1. [PasteBin](pastebin/pastebin.md)
-1. [Rate Limiter](rate-limiter/rate-limiter.md)
-1. [Shopify](shopify/shopify.md)
-1. [Tag Service](tag-service/tag-service.md)
-1. [Template](template/template.md)
-1. [TicketMaster](ticketmaster/ticketmaster.md)
-1. [TikTok](tiktok/tiktok.md)
-1. [Uber](uber/uber.md)
-1. [URL Shortener](url-shortener/url-shortener.md)
-1. [Web Crawler](webcrawler/webcrawler.md)
-1. [YouTube](youtube/youtube.md)
