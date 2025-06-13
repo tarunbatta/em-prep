@@ -18,7 +18,7 @@ A web crawler is a system that systematically browses and indexes web pages acro
 
 ## System Design Diagram
 
-![Web Crawler System Design](webcrawler.png)
+![Web Crawler System Design](webcrawler.svg)
 
 [Download Draw.io File](webcrawler.drawio)
 

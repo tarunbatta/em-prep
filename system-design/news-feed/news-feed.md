@@ -18,7 +18,7 @@ A news feed system is a real-time content delivery platform that aggregates and 
 
 ## System Design Diagram
 
-![News Feed System Design](news-feed.png)
+![News Feed System Design](news-feed.svg)
 
 [Download Draw.io File](news-feed.drawio)
 

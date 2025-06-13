@@ -18,7 +18,7 @@ PasteBin is a text-sharing service that allows users to store and share code sni
 
 ## System Design Diagram
 
-![PasteBin System Design](pastebin.png)
+![PasteBin System Design](pastebin.svg)
 
 [Download Draw.io File](pastebin.drawio)
 

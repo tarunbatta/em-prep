@@ -18,7 +18,7 @@ YouTube is a video-sharing platform that enables users to upload, view, and inte
 
 ## System Design Diagram
 
-![YouTube System Design](youtube.png)
+![YouTube System Design](youtube.svg)
 
 [Download Draw.io File](youtube.drawio)
 

@@ -18,7 +18,7 @@ Uber is a ride-sharing platform that connects passengers with drivers through a 
 
 ## System Design Diagram
 
-![Uber System Design](uber.png)
+![Uber System Design](uber.svg)
 
 [Download Draw.io File](uber.drawio)
 

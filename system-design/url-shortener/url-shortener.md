@@ -18,7 +18,7 @@ A URL shortener is a service that converts long URLs into shorter, more manageab
 
 ## System Design Diagram
 
-![URL Shortener System Design](url-shortener.png)
+![URL Shortener System Design](url-shortener.svg)
 
 [Download Draw.io File](url-shortener.drawio)
 

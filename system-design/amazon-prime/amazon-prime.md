@@ -18,7 +18,7 @@ Amazon Prime is a comprehensive subscription service that offers a wide range of
 
 ## System Design Diagram
 
-![Amazon Prime System Design](amazon-prime.png)
+![Amazon Prime System Design](amazon-prime.svg)
 
 [Download Draw.io File](amazon-prime.drawio)
 

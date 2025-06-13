@@ -18,7 +18,7 @@ A notification system is designed to deliver real-time alerts and messages to us
 
 ## System Design Diagram
 
-![Notification System Design](notification-system.png)
+![Notification System Design](notification-system.svg)
 
 [Download Draw.io File](notification-system.drawio)
 

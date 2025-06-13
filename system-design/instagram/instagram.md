@@ -18,7 +18,7 @@ Instagram is a social media platform focused on photo and video sharing, with fe
 
 ## System Design Diagram
 
-![Instagram System Design](instagram.png)
+![Instagram System Design](instagram.svg)
 
 [Download Draw.io File](instagram.drawio)
 

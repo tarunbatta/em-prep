@@ -18,7 +18,7 @@ A tag service is a system that manages and organizes content through metadata ta
 
 ## System Design Diagram
 
-![Tag Service System Design](tag-service.png)
+![Tag Service System Design](tag-service.svg)
 
 [Download Draw.io File](tag-service.drawio)
 

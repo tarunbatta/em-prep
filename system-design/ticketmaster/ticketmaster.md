@@ -18,7 +18,7 @@ TicketMaster is a ticket sales and distribution platform that handles event tick
 
 ## System Design Diagram
 
-![TicketMaster System Design](ticketmaster.png)
+![TicketMaster System Design](ticketmaster.svg)
 
 [Download Draw.io File](ticketmaster.drawio)
 

@@ -18,7 +18,7 @@ Google Drive is a cloud-based file storage and synchronization service that enab
 
 ## System Design Diagram
 
-![Google Drive System Design](google-drive.png)
+![Google Drive System Design](google-drive.svg)
 
 [Download Draw.io File](google-drive.drawio)
 

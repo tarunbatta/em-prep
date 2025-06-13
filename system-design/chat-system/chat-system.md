@@ -18,7 +18,7 @@ A chat system enables real-time communication between users through text message
 
 ## System Design Diagram
 
-![Chat System Design](chat-system.png)
+![Chat System Design](chat-system.svg)
 
 [Download Draw.io File](chat-system.drawio)
 

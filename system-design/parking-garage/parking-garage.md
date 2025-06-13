@@ -75,7 +75,7 @@ Note: Allocating spot
 
 ## System Design Diagram
 
-![Parking Garage System Design](parking-garage.png)
+![Parking Garage System Design](parking-garage.svg)
 
 [Download Draw.io File](parking-garage.drawio)
 

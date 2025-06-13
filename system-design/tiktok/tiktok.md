@@ -18,7 +18,7 @@ TikTok is a short-form video sharing platform that enables users to create, shar
 
 ## System Design Diagram
 
-![TikTok System Design](tiktok.png)
+![TikTok System Design](tiktok.svg)
 
 [Download Draw.io File](tiktok.drawio)
 

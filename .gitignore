@@ -86,6 +86,9 @@ yarn-error.log*
 .*.drawio.bak
 *.drawio.bak
 
+# Diagram tracking
+.diagram-tracking
+
 # Python
 __pycache__/
 *.py[cod]

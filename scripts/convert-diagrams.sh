@@ -1,39 +1,73 @@
 #!/bin/bash
 
-# Path to draw.io executable
-DRAWIO="/Applications/draw.io.app/Contents/MacOS/draw.io"
+# Configuration
+TRACKING_FILE=".diagram-tracking"
+DRAWIO_PATH="/Applications/draw.io.app/Contents/MacOS/draw.io"
 
-# Check if draw.io is installed
-if [ ! -f "$DRAWIO" ]; then
-    echo "Error: draw.io is not installed."
-    echo "Please install draw.io desktop application using:"
-    echo "brew install --cask drawio"
-    exit 1
-fi
-
-# Function to convert draw.io files to SVG and PNG
-convert_diagrams() {
-    local dir="$1"
-    for file in "$dir"/*.drawio; do
-        if [ -f "$file" ]; then
-            filename=$(basename "$file" .drawio)
-            echo "Converting $file to SVG and PNG..."
-            # Convert to SVG
-            "$DRAWIO" -x "$file" -o "${dir}/${filename}.svg"
-            # Convert to PNG
-            "$DRAWIO" -x "$file" -o "${dir}/${filename}.png"
-        fi
-    done
+# Function to get file hash
+get_file_hash() {
+    local file="$1"
+    if [ -f "$file" ]; then
+        shasum -a 256 "$file" | cut -d' ' -f1
+    else
+        echo ""
+    fi
 }
 
-# Convert files in system-design directory
-convert_diagrams "system-design"
-
-# Convert files in all subdirectories
-for dir in system-design/*/; do
-    if [ -d "$dir" ]; then
-        convert_diagrams "$dir"
+# Function to check if file needs conversion
+needs_conversion() {
+    local drawio_file="$1"
+    local hash=$(get_file_hash "$drawio_file")
+    local stored_hash=$(grep "^$drawio_file:" "$TRACKING_FILE" 2>/dev/null | cut -d':' -f2)
+    
+    if [ "$hash" != "$stored_hash" ]; then
+        return 0  # Needs conversion
+    else
+        return 1  # No conversion needed
     fi
-done
+}
 
-echo "Conversion complete!" 
+# Function to update tracking file
+update_tracking() {
+    local drawio_file="$1"
+    local hash=$(get_file_hash "$drawio_file")
+    
+    # Remove old entry if exists
+    sed -i '' "/^$drawio_file:/d" "$TRACKING_FILE" 2>/dev/null
+    # Add new entry
+    echo "$drawio_file:$hash" >> "$TRACKING_FILE"
+}
+
+# Function to convert a single diagram
+convert_diagram() {
+    local drawio_file="$1"
+    local base_name="${drawio_file%.drawio}"
+    
+    echo "Converting $drawio_file..."
+    
+    # Convert to SVG
+    "$DRAWIO_PATH" --export --format svg --output "${base_name}.svg" "$drawio_file"
+    
+    # Update tracking
+    update_tracking "$drawio_file"
+}
+
+# Main script
+main() {
+    # Create tracking file if it doesn't exist
+    touch "$TRACKING_FILE"
+    
+    # Find all draw.io files
+    find system-design -type f -name "*.drawio" | while read -r file; do
+        if needs_conversion "$file"; then
+            convert_diagram "$file"
+        else
+            echo "Skipping $file (no changes detected)"
+        fi
+    done
+    
+    echo "Conversion complete!"
+}
+
+# Run the script
+main 

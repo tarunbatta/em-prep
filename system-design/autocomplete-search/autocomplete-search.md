@@ -18,7 +18,7 @@ An autocomplete search system is a real-time suggestion engine that helps users 
 
 ## System Design Diagram
 
-![Autocomplete Search System Design](autocomplete-search.png)
+![Autocomplete Search System Design](autocomplete-search.svg)
 
 [Download Draw.io File](autocomplete-search.drawio)
 

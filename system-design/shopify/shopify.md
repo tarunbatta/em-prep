@@ -18,7 +18,7 @@ Shopify is an e-commerce platform that enables businesses to create online store
 
 ## System Design Diagram
 
-![Shopify System Design](shopify.png)
+![Shopify System Design](shopify.svg)
 
 [Download Draw.io File](shopify.drawio)
 

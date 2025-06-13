@@ -18,7 +18,7 @@ Dropbox is a cloud storage and file synchronization service that allows users to
 
 ## System Design Diagram
 
-![Dropbox System Design](dropbox.png)
+![Dropbox System Design](dropbox.svg)
 
 [Download Draw.io File](dropbox.drawio)
 

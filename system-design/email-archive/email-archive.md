@@ -18,7 +18,7 @@ An email archive system is designed to store, index, and retrieve historical ema
 
 ## System Design Diagram
 
-![Email Archive System Design](email-archive.png)
+![Email Archive System Design](email-archive.svg)
 
 [Download Draw.io File](email-archive.drawio)
 

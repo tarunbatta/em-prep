@@ -18,7 +18,7 @@ Google Docs is a cloud-based document editing and collaboration platform that en
 
 ## System Design Diagram
 
-![Google Docs System Design](google-docs.png)
+![Google Docs System Design](google-docs.svg)
 
 [Download Draw.io File](google-docs.drawio)
 
