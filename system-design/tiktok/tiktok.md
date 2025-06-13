@@ -1,148 +1,25 @@
-[← Back to System Design](../system-design.md)
-
 # TikTok System Design
 
+[← Back to System Design](../system-design.md)
+
 ## Overview
-TikTok is a social media platform that allows users to create, share, and discover short-form videos, with features like video creation, content discovery, and social interaction.
 
-## Components
+TikTok is a short-form video sharing platform that enables users to create, share, and discover content through an AI-powered recommendation system. The system needs to handle massive video storage, real-time content delivery, personalized recommendations, and social interactions. It requires efficient video processing pipelines, sophisticated recommendation algorithms, and a scalable infrastructure to support billions of users and their daily video consumption while maintaining low latency and high availability.
 
-### 1. Client
-- Web interface
-- Mobile apps
-- Handles user interactions
-- Manages video playback
+## Functional Requirements
 
-### 2. Load Balancer
-- Distributes traffic
-- Handles SSL termination
-- Implements health checks
-- Manages session persistence
+## Non-Functional Requirements
 
-### 3. API Server
-- Processes client requests
-- Handles authentication
-- Manages video operations
-- Implements business logic
+## Back of the Envelope Estimations
 
-### 4. Video Service
-- Manages video content
-- Handles video processing
-- Implements video rules
-- Manages content delivery
+## API Endpoints
 
-### 5. Content Delivery Network (CDN)
-- Delivers video content
-- Manages content caching
-- Implements delivery strategies
-- Handles geographic distribution
+## Object Model
 
-### 6. Database
-- Stores video metadata
-- Manages user data
-- Handles relationships
-- Maintains analytics
+## System Design Diagram
 
-## Key Considerations
+![TikTok System Design](tiktok.png)
 
-### 1. Video Management
-- Video upload
-- Video processing
-- Content delivery
-- Video playback
+[Download Draw.io File](tiktok.drawio)
 
-### 2. Content Discovery
-- Content recommendation
-- User engagement
-- Content filtering
-- Trending content
-
-### 3. Scalability
-- Handle many users
-- Support high throughput
-- Geographic distribution
-- Load balancing
-
-### 4. Performance
-- Fast video delivery
-- Quick content discovery
-- Efficient video processing
-- Low latency
-
-## Implementation Considerations
-
-1. **Video Processing**
-   - Video upload
-   - Video encoding
-   - Content moderation
-   - Video delivery
-
-2. **Content Discovery**
-   - Recommendation engine
-   - User engagement
-   - Content filtering
-   - Trending content
-
-3. **CDN Strategy**
-   - Content caching
-   - Geographic distribution
-   - Delivery optimization
-   - Storage management
-
-4. **Security**
-   - Content moderation
-   - Access control
-   - User privacy
-   - Data protection
-
-## Best Practices
-
-1. **Monitoring**
-   - User engagement
-   - System performance
-   - Error tracking
-   - Resource utilization
-
-2. **Reliability**
-   - Data consistency
-   - Fault tolerance
-   - Disaster recovery
-   - System backup
-
-3. **Scalability**
-   - Horizontal scaling
-   - Load distribution
-   - Database sharding
-   - Cache management
-
-4. **Maintenance**
-   - System updates
-   - Performance tuning
-   - Database optimization
-   - Cache management
-
-## Additional Features
-
-1. **Video Features**
-   - Video creation
-   - Video editing
-   - Video effects
-   - Video sharing
-
-2. **Content Features**
-   - Content discovery
-   - Content recommendation
-   - Content filtering
-   - Trending content
-
-3. **User Features**
-   - User profiles
-   - Social interaction
-   - Content creation
-   - User preferences
-
-4. **Analytics**
-   - User engagement
-   - Content performance
-   - System health
-   - Resource utilization
+## Additional Notes

@@ -1,148 +1,25 @@
-[← Back to System Design](../system-design.md)
-
 # Dropbox System Design
 
+[← Back to System Design](../system-design.md)
+
 ## Overview
-Dropbox is a file hosting service that offers cloud storage, file synchronization, and personal cloud features, allowing users to store and share files across devices.
 
-## Components
+Dropbox is a cloud storage and file synchronization service that allows users to store, share, and access files across multiple devices. The system needs to handle massive file storage, real-time synchronization, version control, and secure file sharing. It requires efficient data deduplication, robust conflict resolution, and scalable storage infrastructure to maintain performance and reliability across global regions.
 
-### 1. Client
-- Desktop and mobile apps
-- Web interface
-- Handles file operations
-- Manages synchronization
+## Functional Requirements
 
-### 2. Load Balancer
-- Distributes traffic
-- Handles SSL termination
-- Implements health checks
-- Manages session persistence
+## Non-Functional Requirements
 
-### 3. API Server
-- Processes client requests
-- Handles authentication
-- Manages file operations
-- Implements business logic
+## Back of the Envelope Estimations
 
-### 4. Storage Service
-- Manages file storage
-- Handles file operations
-- Implements deduplication
-- Manages versioning
+## API Endpoints
 
-### 5. Metadata DB
-- Stores file metadata
-- Manages user data
-- Handles relationships
-- Maintains file history
+## Object Model
 
-### 6. Object Storage
-- Stores actual files
-- Handles file chunks
-- Manages replication
-- Implements backup
+## System Design Diagram
 
-## Key Considerations
+![Dropbox System Design](dropbox.png)
 
-### 1. File Storage
-- Efficient storage
-- File deduplication
-- Version control
-- Backup strategy
+[Download Draw.io File](dropbox.drawio)
 
-### 2. Synchronization
-- Real-time sync
-- Conflict resolution
-- Change tracking
-- Bandwidth optimization
-
-### 3. Scalability
-- Handle large files
-- Support many users
-- Geographic distribution
-- Storage scaling
-
-### 4. Performance
-- Fast upload/download
-- Quick file access
-- Efficient sync
-- Low latency
-
-## Implementation Considerations
-
-1. **File Management**
-   - Chunking strategy
-   - Deduplication
-   - Version control
-   - File compression
-
-2. **Storage Strategy**
-   - Object storage
-   - Metadata storage
-   - Cache management
-   - Backup system
-
-3. **Sync Mechanism**
-   - Change detection
-   - Conflict resolution
-   - Bandwidth management
-   - Offline support
-
-4. **Security**
-   - File encryption
-   - Access control
-   - Authentication
-   - Data privacy
-
-## Best Practices
-
-1. **Monitoring**
-   - Storage usage
-   - Sync status
-   - System performance
-   - Error tracking
-
-2. **Reliability**
-   - Data redundancy
-   - Fault tolerance
-   - Disaster recovery
-   - System backup
-
-3. **Scalability**
-   - Storage scaling
-   - Load distribution
-   - Geographic distribution
-   - Cache management
-
-4. **Maintenance**
-   - System updates
-   - Storage optimization
-   - Performance tuning
-   - Cache management
-
-## Additional Features
-
-1. **File Features**
-   - File sharing
-   - Version history
-   - File recovery
-   - File preview
-
-2. **Collaboration**
-   - Shared folders
-   - Team spaces
-   - Comments
-   - File requests
-
-3. **Security Features**
-   - Two-factor authentication
-   - File encryption
-   - Access controls
-   - Audit logs
-
-4. **Integration**
-   - Third-party apps
-   - API access
-   - Webhooks
-   - Mobile sync
+## Additional Notes

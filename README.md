@@ -4,13 +4,13 @@ This repository contains preparation materials for Engineering Manager (EM) inte
 
 ## Navigation
 
-- [System Design](system-design/README.md) - System design interview preparation materials
-- [Behavioural](behavioural/README.md) - Behavioural interview preparation materials
-
+- [System Design](system-design/system-design.md) - System design interview preparation materials
+- [Behavioural](behavioural/behavioural.md) - Behavioural interview preparation materials
 
 ## Contributing
 
 Feel free to contribute by:
+
 - Adding new interview questions
 - Improving existing solutions
 - Adding more detailed explanations

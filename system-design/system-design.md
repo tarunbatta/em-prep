@@ -8,7 +8,7 @@ This directory contains system design documentation for various systems, each or
 
 ### Powers of two table
 
-```
+```text
 Power    Approx Value (Bytes)       Bytes
 -----------------------------------------
 10                 1 thousand        1 KB
@@ -22,7 +22,7 @@ Power    Approx Value (Bytes)       Bytes
 
 ### Bytes to store different data types in SQL
 
-```
+```text
 Data type              Bytes
 -----------------------------
 ASCII character             1
@@ -40,8 +40,8 @@ https://dev.mysql.com/doc/refman/8.0/en/storage-requirements.html
 
 In a system design discussion, we normally discuss numbers in seconds or using relative comparisons.
 I doubt we are expected to know the exact numbers so, I created a cheat sheet that would be easy to remember and includes references to newer technology.
-```
 
+```text
 Latency Comparison Numbers
 --------------------------
 L1 cache can be accessed 14x faster than L2 cache.
@@ -62,8 +62,9 @@ World-wide round trips at 6-7 trips/sec.
 1MB sequential read from disk   --> 80x of memory
 ```
 
-### Handy numbers for requests calculations.
-```
+### Handy numbers for requests calculations
+
+```text
 Numbers for requests calculations
 ---------------------------------
 2.5 million seconds per month
@@ -77,26 +78,27 @@ Numbers for requests calculations
 ```
 
 ## Systems
-- [Amazon Prime](amazon-prime/amazon-prime.md)
-- [Autocomplete Search](autocomplete-search/autocomplete-search.md)
-- [Chat System](chat-system/chat-system.md)
-- [DocuSign](docusign/docusign.md)
-- [Dropbox](dropbox/dropbox.md)
-- [Email Archive](email-archive/email-archive.md)
-- [Google Drive](google-drive/google-drive.md)
-- [Google Docs](google-docs/google-docs.md)
-- [Instagram](instagram/instagram.md)
-- [News Feed](news-feed/news-feed.md)
-- [Notification System](notification-system/notification-system.md)
-- [Parking Garage](parking-garage/parking-garage.md)
-- [PasteBin](pastebin/pastebin.md)
-- [Rate Limiter](rate-limiter/rate-limiter.md)
-- [Shopify](shopify/shopify.md)
-- [Tag Service](tag-service/tag-service.md)
-- [Template](template/template.md)
-- [TicketMaster](ticketmaster/ticketmaster.md)
-- [TikTok](tiktok/tiktok.md)
-- [Uber](uber/uber.md)
-- [URL Shortener](url-shortener/url-shortener.md)
-- [Web Crawler](webcrawler/webcrawler.md)
-- [YouTube](youtube/youtube.md)
+
+1. [Amazon Prime](amazon-prime/amazon-prime.md)
+1. [Autocomplete Search](autocomplete-search/autocomplete-search.md)
+1. [Chat System](chat-system/chat-system.md)
+1. [DocuSign](docusign/docusign.md)
+1. [Dropbox](dropbox/dropbox.md)
+1. [Email Archive](email-archive/email-archive.md)
+1. [Google Drive](google-drive/google-drive.md)
+1. [Google Docs](google-docs/google-docs.md)
+1. [Instagram](instagram/instagram.md)
+1. [News Feed](news-feed/news-feed.md)
+1. [Notification System](notification-system/notification-system.md)
+1. [Parking Garage](parking-garage/parking-garage.md)
+1. [PasteBin](pastebin/pastebin.md)
+1. [Rate Limiter](rate-limiter/rate-limiter.md)
+1. [Shopify](shopify/shopify.md)
+1. [Tag Service](tag-service/tag-service.md)
+1. [Template](template/template.md)
+1. [TicketMaster](ticketmaster/ticketmaster.md)
+1. [TikTok](tiktok/tiktok.md)
+1. [Uber](uber/uber.md)
+1. [URL Shortener](url-shortener/url-shortener.md)
+1. [Web Crawler](webcrawler/webcrawler.md)
+1. [YouTube](youtube/youtube.md)

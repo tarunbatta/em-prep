@@ -1,148 +1,25 @@
-[← Back to System Design](../system-design.md)
-
 # Web Crawler System Design
 
+[← Back to System Design](../system-design.md)
+
 ## Overview
-A Web Crawler is a system designed to systematically browse the web, index web pages, and extract data for various purposes such as search engines, data mining, and web archiving.
 
-## Components
+A web crawler is a system that systematically browses and indexes web pages across the internet. The system needs to handle distributed crawling, content parsing, URL management, and efficient storage of crawled data. It requires robust URL frontier management, polite crawling policies, and a scalable infrastructure to support billions of web pages while maintaining efficient resource usage and respecting website crawling rules.
 
-### 1. Client
-- Web interface
-- API clients
-- Handles user interactions
-- Manages crawl requests
+## Functional Requirements
 
-### 2. Load Balancer
-- Distributes traffic
-- Handles SSL termination
-- Implements health checks
-- Manages session persistence
+## Non-Functional Requirements
 
-### 3. API Server
-- Processes client requests
-- Handles authentication
-- Manages crawl operations
-- Implements business logic
+## Back of the Envelope Estimations
 
-### 4. Crawler Service
-- Manages web crawling
-- Handles page parsing
-- Implements crawl rules
-- Manages data extraction
+## API Endpoints
 
-### 5. Queue Service
-- Manages crawl queue
-- Handles job scheduling
-- Implements priority rules
-- Manages job persistence
+## Object Model
 
-### 6. Database
-- Stores crawl data
-- Manages URL data
-- Handles relationships
-- Maintains analytics
+## System Design Diagram
 
-## Key Considerations
+![Web Crawler System Design](webcrawler.png)
 
-### 1. Crawl Management
-- URL discovery
-- Page parsing
-- Data extraction
-- Crawl scheduling
+[Download Draw.io File](webcrawler.drawio)
 
-### 2. Performance
-- Fast crawling
-- Efficient parsing
-- Resource utilization
-- Low latency
-
-### 3. Scalability
-- Handle many URLs
-- Support high throughput
-- Geographic distribution
-- Load balancing
-
-### 4. Ethics
-- Respect robots.txt
-- Rate limiting
-- Data privacy
-- Legal compliance
-
-## Implementation Considerations
-
-1. **Crawl Operations**
-   - URL discovery
-   - Page parsing
-   - Data extraction
-   - Crawl scheduling
-
-2. **Queue Management**
-   - Job scheduling
-   - Priority handling
-   - Job persistence
-   - Retry logic
-
-3. **Data Extraction**
-   - HTML parsing
-   - Data validation
-   - Storage management
-   - Data indexing
-
-4. **Security**
-   - Access control
-   - Data protection
-   - Rate limiting
-   - Abuse prevention
-
-## Best Practices
-
-1. **Monitoring**
-   - Crawl performance
-   - System health
-   - Error tracking
-   - Resource utilization
-
-2. **Reliability**
-   - Data consistency
-   - Fault tolerance
-   - Disaster recovery
-   - System backup
-
-3. **Scalability**
-   - Horizontal scaling
-   - Load distribution
-   - Database sharding
-   - Cache management
-
-4. **Maintenance**
-   - System updates
-   - Performance tuning
-   - Database optimization
-   - Cache management
-
-## Additional Features
-
-1. **Crawl Features**
-   - URL discovery
-   - Page parsing
-   - Data extraction
-   - Crawl scheduling
-
-2. **Data Features**
-   - Data validation
-   - Data indexing
-   - Data storage
-   - Data retrieval
-
-3. **User Features**
-   - Crawl management
-   - Data access
-   - User preferences
-   - Analytics
-
-4. **Integration**
-   - API access
-   - Third-party services
-   - Export options
-   - Import capabilities
+## Additional Notes
