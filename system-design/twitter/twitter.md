@@ -24,6 +24,8 @@ Twitter is a microblogging and social networking platform that allows users to p
 
 ## Additional Notes
 
-### Video
+### Video References
 
-[![Twitter System Design Video](https://img.youtube.com/vi/Nfa-uUHuFHg/0.jpg)](https://www.youtube.com/watch?v=Nfa-uUHuFHg)
+- [![Twitter System Design Video 1](https://img.youtube.com/vi/Nfa-uUHuFHg/0.jpg)](https://www.youtube.com/watch?v=Nfa-uUHuFHg)
+- [![Twitter System Design Video 2](https://img.youtube.com/vi/Fy_Vo45P9xM/0.jpg)](https://www.youtube.com/watch?v=Fy_Vo45P9xM)
+- [![Twitter System Design Video 3](https://img.youtube.com/vi/gbysuvl2TZo/0.jpg)](https://www.youtube.com/watch?v=gbysuvl2TZo)

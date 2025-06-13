@@ -24,6 +24,8 @@ A chat system enables real-time communication between users through text message
 
 ## Additional Notes
 
-### Video
+### Video References
 
-[![WhatsApp System Design Video](https://img.youtube.com/vi/cr6p0n0N-VA/0.jpg)](https://www.youtube.com/watch?v=cr6p0n0N-VA)
+- [![WhatsApp System Design Video 1](https://img.youtube.com/vi/cr6p0n0N-VA/0.jpg)](https://www.youtube.com/watch?v=cr6p0n0N-VA)
+- [![WhatsApp System Design Video 2](https://img.youtube.com/vi/ZYlaiAPfbhw/0.jpg)](https://www.youtube.com/watch?v=ZYlaiAPfbhw)
+- [![WhatsApp System Design Video 3](https://img.youtube.com/vi/xyLO8ZAk2KE/0.jpg)](https://www.youtube.com/watch?v=xyLO8ZAk2KE)

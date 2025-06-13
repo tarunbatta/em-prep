@@ -24,7 +24,7 @@ A rate limiter is a system component that controls the rate of requests a servic
 
 ## Additional Notes
 
-### Video
+### Video References
 
 [![Rate Limiter System Design Video](https://img.youtube.com/vi/SgWb6tWx3S8/0.jpg)](https://www.youtube.com/watch?v=SgWb6tWx3S8)
 

@@ -122,7 +122,7 @@ Enums
 
 ## Additional Notes
 
-### Video
+### Video References
 
 [![Parking Garage System Design Video](https://img.youtube.com/vi/NtMvNh0WFVM/0.jpg)](https://www.youtube.com/watch?v=NtMvNh0WFVM)
 

@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "convert-diagrams": "./scripts/convert-diagrams.sh"
+    "convert-diagrams": "./scripts/convert-diagrams.sh",
+    "create-system-design": "./scripts/create-system-design.sh"
   },
   "repository": {
     "type": "git",

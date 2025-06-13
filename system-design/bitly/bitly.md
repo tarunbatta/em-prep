@@ -121,6 +121,6 @@ Add misc and make it 500 bytes
 Single DB can easily handle it
 In future if needed we can Shard based on shortUrl. In case of 3 DB, DB % 3 to find the right DB
 
-### Video
+### Video References
 
 [![Bitly System Design Video](https://img.youtube.com/vi/iUU4O1sWtJA/0.jpg)](https://www.youtube.com/watch?v=iUU4O1sWtJA)
