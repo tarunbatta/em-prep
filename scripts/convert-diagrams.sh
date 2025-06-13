@@ -47,7 +47,13 @@ convert_diagram() {
     
     # Convert to SVG
     "$DRAWIO_PATH" --export --format svg --output "${base_name}.svg" "$drawio_file"
-    
+
+    # Insert white background rect as first child of <svg>
+    if [ -f "${base_name}.svg" ]; then
+        # Insert <rect ...> after the first <svg ...> line
+        sed -i '' '0,/<svg[^>]*>/s//&\n  <rect width="100%" height="100%" fill="#fff"\/>/' "${base_name}.svg"
+    fi
+
     # Update tracking
     update_tracking "$drawio_file"
 }
