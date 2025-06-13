@@ -18,7 +18,7 @@ DocuSign is a digital transaction management platform that enables electronic si
 
 ## System Design Diagram
 
-![DocuSign System Design](docusign.png)
+![DocuSign System Design](docusign.svg)
 
 [Download Draw.io File](docusign.drawio)
 
