@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "convert-diagrams": "./convert-diagrams.sh"
+    "convert-diagrams": "./scripts/convert-diagrams.sh",
+    "format-markdowns": "./scripts/format-markdowns.sh"
   },
   "repository": {
     "type": "git",
@@ -31,4 +32,4 @@
     "eslint-config-prettier": "^10.1.5",
     "eslint-plugin-prettier": "^5.1.3"
   }
-} 
+}

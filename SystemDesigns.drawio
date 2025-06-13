@@ -1,454 +1,39 @@
-<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36" version="27.0.9" pages="29">
-  <diagram name="Template" id="sX7S3tRy4Z8Bx3EShi8z">
-    <mxGraphModel dx="2305" dy="1134" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="XPHsndZZJCqnBg0c9eK1-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Functional Requirements&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="40" y="30" width="400" height="170" as="geometry" />
-        </mxCell>
-        <mxCell id="XPHsndZZJCqnBg0c9eK1-2" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Non-Functional Requirements&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="430" y="30" width="400" height="200" as="geometry" />
-        </mxCell>
-        <mxCell id="XPHsndZZJCqnBg0c9eK1-3" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Back of the Envelope Estimations&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="880" y="30" width="400" height="200" as="geometry" />
-        </mxCell>
-        <mxCell id="XPHsndZZJCqnBg0c9eK1-4" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Notes&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1330" y="30" width="400" height="200" as="geometry" />
-        </mxCell>
-        <mxCell id="27VbrXChBbFN_Ox-OqeP-1" value="&lt;h2 style=&quot;box-sizing: border-box; margin-bottom: 16px; line-height: 1.25; padding-bottom: 0.3em; border-bottom: 1px solid rgba(209, 217, 224, 0.7); color: rgb(31, 35, 40); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; background-color: rgb(255, 255, 255); margin-top: 0px !important;&quot; dir=&quot;auto&quot; class=&quot;heading-element&quot;&gt;Easy to remember numbers for back-of-the-envelope calculations in system design interviews&lt;/h2&gt;&lt;div style=&quot;box-sizing: border-box; position: relative; color: rgb(31, 35, 40); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; background-color: rgb(255, 255, 255); margin-top: 0px !important;&quot; dir=&quot;auto&quot; class=&quot;markdown-heading&quot;&gt;&lt;h2 style=&quot;box-sizing: border-box; margin-bottom: 16px; line-height: 1.25; padding-bottom: 0.3em; border-bottom: 1px solid rgba(209, 217, 224, 0.7); margin-top: 0px !important;&quot; dir=&quot;auto&quot; class=&quot;heading-element&quot;&gt;&lt;span style=&quot;font-size: 1.25em; font-weight: normal;&quot;&gt;Powers of two table&lt;/span&gt;&lt;/h2&gt;&lt;/div&gt;&lt;div style=&quot;box-sizing: border-box; position: relative; color: rgb(31, 35, 40); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; background-color: rgb(255, 255, 255);&quot; dir=&quot;auto&quot; class=&quot;markdown-heading&quot;&gt;&lt;a style=&quot;box-sizing: border-box; background-color: transparent; color: rgb(9, 105, 218); float: left; padding-right: 4px; margin: auto; line-height: 1; position: absolute; top: 12.5px; left: -28px; display: flex; width: 28px; height: 28px; border-radius: 6px; opacity: 0; justify-content: center; align-items: center; transform: translateY(-50%); text-underline-offset: 0.2rem;&quot; href=&quot;https://gist.github.com/mwakaba2/8ad25dda8c71fe529855994c70743733#powers-of-two-table&quot; aria-label=&quot;Permalink: Powers of two table&quot; class=&quot;anchor&quot; id=&quot;user-content-powers-of-two-table&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; width=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; class=&quot;octicon octicon-link&quot;&gt;&lt;path d=&quot;m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/div&gt;&lt;pre style=&quot;box-sizing: border-box; font-family: ui-monospace, SFMono-Regular, &amp;quot;SF Mono&amp;quot;, Menlo, Consolas, &amp;quot;Liberation Mono&amp;quot;, monospace; font-size: 13.6px; margin-top: 0px; margin-bottom: 16px; overflow-wrap: normal; padding: 16px; overflow: auto; line-height: 1.45; color: rgb(31, 35, 40); background-color: rgb(246, 248, 250); border-radius: 6px;&quot;&gt;&lt;code style=&quot;box-sizing: border-box; font-family: ui-monospace, SFMono-Regular, &amp;quot;SF Mono&amp;quot;, Menlo, Consolas, &amp;quot;Liberation Mono&amp;quot;, monospace; font-size: 13.6px; padding: 0px; margin: 0px; background: transparent; border-radius: 6px; word-break: normal; border: 0px; display: inline; overflow: visible; line-height: inherit; overflow-wrap: normal;&quot;&gt;Power    Approx Value (Bytes)       Bytes&lt;br&gt;-----------------------------------------&lt;br&gt;10                 1 thousand        1 KB&lt;br&gt;16                65 thousand       64 KB&lt;br&gt;20                  1 million        1 MB&lt;br&gt;30                  1 billion        1 GB&lt;br&gt;32                  4 billion        4 GB&lt;br&gt;40                 1 trillion        1 TB&lt;br&gt;50              1 quadrillion        1 PB&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;div style=&quot;box-sizing: border-box; position: relative; color: rgb(31, 35, 40); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; background-color: rgb(255, 255, 255);&quot; dir=&quot;auto&quot; class=&quot;markdown-heading&quot;&gt;&lt;h3 style=&quot;box-sizing: border-box; margin-top: 24px; margin-bottom: 16px; font-size: 1.25em; line-height: 1.25;&quot; dir=&quot;auto&quot; class=&quot;heading-element&quot;&gt;Bytes to store different data types in SQL&lt;/h3&gt;&lt;a style=&quot;box-sizing: border-box; background-color: transparent; color: rgb(9, 105, 218); float: left; padding-right: 4px; margin: auto; line-height: 1; position: absolute; top: 12.5px; left: -28px; display: flex; width: 28px; height: 28px; border-radius: 6px; opacity: 0; justify-content: center; align-items: center; transform: translateY(-50%); text-underline-offset: 0.2rem;&quot; href=&quot;https://gist.github.com/mwakaba2/8ad25dda8c71fe529855994c70743733#bytes-to-store-different-data-types-in-sql&quot; aria-label=&quot;Permalink: Bytes to store different data types in SQL&quot; class=&quot;anchor&quot; id=&quot;user-content-bytes-to-store-different-data-types-in-sql&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; width=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; class=&quot;octicon octicon-link&quot;&gt;&lt;path d=&quot;m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/div&gt;&lt;pre style=&quot;box-sizing: border-box; font-family: ui-monospace, SFMono-Regular, &amp;quot;SF Mono&amp;quot;, Menlo, Consolas, &amp;quot;Liberation Mono&amp;quot;, monospace; font-size: 13.6px; margin-top: 0px; margin-bottom: 16px; overflow-wrap: normal; padding: 16px; overflow: auto; line-height: 1.45; color: rgb(31, 35, 40); background-color: rgb(246, 248, 250); border-radius: 6px;&quot;&gt;&lt;code style=&quot;box-sizing: border-box; font-family: ui-monospace, SFMono-Regular, &amp;quot;SF Mono&amp;quot;, Menlo, Consolas, &amp;quot;Liberation Mono&amp;quot;, monospace; font-size: 13.6px; padding: 0px; margin: 0px; background: transparent; border-radius: 6px; word-break: normal; border: 0px; display: inline; overflow: visible; line-height: inherit; overflow-wrap: normal;&quot;&gt;Data type              Bytes&lt;br&gt;-----------------------------&lt;br&gt;ASCII character             1&lt;br&gt;UNICODE character           2&lt;br&gt;&lt;br&gt;Bytes calculation for string of length x&lt;br&gt;-----------------------------------------&lt;br&gt;(x*(bytes to store the char)*(8 bits)) / 8 bits&lt;br&gt;&lt;br&gt;&lt;br&gt;https://dev.mysql.com/doc/refman/8.0/en/storage-requirements.html&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;div style=&quot;box-sizing: border-box; position: relative; color: rgb(31, 35, 40); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; background-color: rgb(255, 255, 255);&quot; dir=&quot;auto&quot; class=&quot;markdown-heading&quot;&gt;&lt;h3 style=&quot;box-sizing: border-box; margin-top: 24px; margin-bottom: 16px; font-size: 1.25em; line-height: 1.25;&quot; dir=&quot;auto&quot; class=&quot;heading-element&quot;&gt;Latency numbers every programmer should know in seconds&lt;/h3&gt;&lt;a style=&quot;box-sizing: border-box; background-color: transparent; color: rgb(9, 105, 218); float: left; padding-right: 4px; margin: auto; line-height: 1; position: absolute; top: 12.5px; left: -28px; display: flex; width: 28px; height: 28px; border-radius: 6px; opacity: 0; justify-content: center; align-items: center; transform: translateY(-50%); text-underline-offset: 0.2rem;&quot; href=&quot;https://gist.github.com/mwakaba2/8ad25dda8c71fe529855994c70743733#latency-numbers-every-programmer-should-know-in-seconds&quot; aria-label=&quot;Permalink: Latency numbers every programmer should know in seconds&quot; class=&quot;anchor&quot; id=&quot;user-content-latency-numbers-every-programmer-should-know-in-seconds&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; width=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; class=&quot;octicon octicon-link&quot;&gt;&lt;path d=&quot;m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/div&gt;&lt;p style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 16px; color: rgb(31, 35, 40); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; background-color: rgb(255, 255, 255);&quot; dir=&quot;auto&quot;&gt;In a system design discussion, we normally discuss numbers in seconds or using relative comparisons. I doubt we are expected to know the exact numbers so, I created a cheat sheet that would be easy to remember and includes references to newer technology.&lt;/p&gt;&lt;pre style=&quot;box-sizing: border-box; font-family: ui-monospace, SFMono-Regular, &amp;quot;SF Mono&amp;quot;, Menlo, Consolas, &amp;quot;Liberation Mono&amp;quot;, monospace; font-size: 13.6px; margin-top: 0px; margin-bottom: 16px; overflow-wrap: normal; padding: 16px; overflow: auto; line-height: 1.45; color: rgb(31, 35, 40); background-color: rgb(246, 248, 250); border-radius: 6px;&quot;&gt;&lt;code style=&quot;box-sizing: border-box; font-family: ui-monospace, SFMono-Regular, &amp;quot;SF Mono&amp;quot;, Menlo, Consolas, &amp;quot;Liberation Mono&amp;quot;, monospace; font-size: 13.6px; padding: 0px; margin: 0px; background: transparent; border-radius: 6px; word-break: normal; border: 0px; display: inline; overflow: visible; line-height: inherit; overflow-wrap: normal;&quot;&gt;Latency Comparison Numbers&lt;br&gt;--------------------------&lt;br&gt;L1 cache can be accessed 14x faster than L2 cache.&lt;br&gt;Main memory access is 20x slower than L2, 200x slower than L1.&lt;br&gt;&lt;br&gt;Zippy Compression at 250 MB/sec.&lt;br&gt;Send data over 1 Gbps network at 100 MB/sec.&lt;br&gt;Read sequentially from 1 Gbps Ethernet at 100 MB/sec.&lt;br&gt;Read randomly/sequentially from SSD at ~ 1 GB/sec.&lt;br&gt;Read sequentially from main memory at 4 GB/sec.&lt;br&gt;Read sequentially from disk at 30 MB/sec.&lt;br&gt;Disk seeks at 100 seeks/sec.&lt;br&gt;Round-trips within a data center at 2,000 trips/sec.&lt;br&gt;World-wide round trips at 6-7 trips/sec.&lt;br&gt;&lt;br&gt;1MB sequential read from memory --&amp;gt; 250 micro seconds&lt;br&gt;1MB sequential read from ssd    --&amp;gt; 4x of memory&lt;br&gt;1MB sequential read from disk   --&amp;gt; 80x of memory&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;div style=&quot;box-sizing: border-box; position: relative; color: rgb(31, 35, 40); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; background-color: rgb(255, 255, 255);&quot; dir=&quot;auto&quot; class=&quot;markdown-heading&quot;&gt;&lt;h3 style=&quot;box-sizing: border-box; margin-top: 24px; margin-bottom: 16px; font-size: 1.25em; line-height: 1.25;&quot; dir=&quot;auto&quot; class=&quot;heading-element&quot;&gt;Handy numbers for requests calculations.&lt;/h3&gt;&lt;a style=&quot;box-sizing: border-box; background-color: transparent; color: rgb(9, 105, 218); float: left; padding-right: 4px; margin: auto; line-height: 1; position: absolute; top: 12.5px; left: -28px; display: flex; width: 28px; height: 28px; border-radius: 6px; opacity: 0; justify-content: center; align-items: center; transform: translateY(-50%); text-underline-offset: 0.2rem;&quot; href=&quot;https://gist.github.com/mwakaba2/8ad25dda8c71fe529855994c70743733#handy-numbers-for-requests-calculations&quot; aria-label=&quot;Permalink: Handy numbers for requests calculations.&quot; class=&quot;anchor&quot; id=&quot;user-content-handy-numbers-for-requests-calculations&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; width=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; class=&quot;octicon octicon-link&quot;&gt;&lt;path d=&quot;m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/div&gt;&lt;pre style=&quot;box-sizing: border-box; font-family: ui-monospace, SFMono-Regular, &amp;quot;SF Mono&amp;quot;, Menlo, Consolas, &amp;quot;Liberation Mono&amp;quot;, monospace; font-size: 13.6px; margin-top: 0px; margin-bottom: 16px; overflow-wrap: normal; padding: 16px; overflow: auto; line-height: 1.45; color: rgb(31, 35, 40); background-color: rgb(246, 248, 250); border-radius: 6px;&quot;&gt;&lt;code style=&quot;box-sizing: border-box; font-family: ui-monospace, SFMono-Regular, &amp;quot;SF Mono&amp;quot;, Menlo, Consolas, &amp;quot;Liberation Mono&amp;quot;, monospace; font-size: 13.6px; padding: 0px; margin: 0px; background: transparent; border-radius: 6px; word-break: normal; border: 0px; display: inline; overflow: visible; line-height: inherit; overflow-wrap: normal;&quot;&gt;Numbers for requests calculations&lt;br&gt;---------------------------------&lt;br&gt;2.5 million seconds per month&lt;br&gt;&lt;br&gt;1 million reqs/month   --&amp;gt;  .4 reqs/sec&lt;br&gt;2.6 million reqs/month --&amp;gt;   1 reqs/sec&lt;br&gt;5 million reqs/month   --&amp;gt;   2 reqs/sec&lt;br&gt;10 million reqs/month  --&amp;gt;   4 reqs/sec&lt;br&gt;100 million reqs/month --&amp;gt;  40 reqs/sec&lt;br&gt;1 billion reqs/month   --&amp;gt; 400 reqs/sec&lt;/code&gt;&lt;/pre&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="70" y="200" width="1170" height="1450" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="IMSYoiz-ZVZS9IROqF-L" name="Docusign">
-    <mxGraphModel dx="3386" dy="1723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="TuEia0F1BFCH1UdOG985-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TuEia0F1BFCH1UdOG985-3" target="TuEia0F1BFCH1UdOG985-16">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="TuEia0F1BFCH1UdOG985-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TuEia0F1BFCH1UdOG985-3" target="TuEia0F1BFCH1UdOG985-28">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="TuEia0F1BFCH1UdOG985-3" value="App" style="whiteSpace=wrap;html=1;aspect=fixed;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="740" y="234.86" width="195" height="195" as="geometry" />
-        </mxCell>
-        <mxCell id="TuEia0F1BFCH1UdOG985-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TuEia0F1BFCH1UdOG985-5" target="TuEia0F1BFCH1UdOG985-7">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="TuEia0F1BFCH1UdOG985-5" value="Client" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="289.86" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="TuEia0F1BFCH1UdOG985-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TuEia0F1BFCH1UdOG985-7" target="TuEia0F1BFCH1UdOG985-9">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="TuEia0F1BFCH1UdOG985-7" value="www" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="340" y="289.86" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="TuEia0F1BFCH1UdOG985-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TuEia0F1BFCH1UdOG985-9" target="TuEia0F1BFCH1UdOG985-16">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="560" y="59.8599999999999" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="560" y="169.86" />
-              <mxPoint x="1198" y="169.86" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TuEia0F1BFCH1UdOG985-9" value="Account Server" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="520" y="289.86" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="TuEia0F1BFCH1UdOG985-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TuEia0F1BFCH1UdOG985-12" target="TuEia0F1BFCH1UdOG985-13">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="600" y="409.86" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TuEia0F1BFCH1UdOG985-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TuEia0F1BFCH1UdOG985-12" target="TuEia0F1BFCH1UdOG985-15">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="700" y="409.86" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TuEia0F1BFCH1UdOG985-12" value="Micro front Ends" style="whiteSpace=wrap;html=1;aspect=fixed;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
-          <mxGeometry x="750" y="339.86" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="TuEia0F1BFCH1UdOG985-13" value="Azure Monitor" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="560" y="559.86" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="TuEia0F1BFCH1UdOG985-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.01;entryY=0.471;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="TuEia0F1BFCH1UdOG985-9" target="TuEia0F1BFCH1UdOG985-3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="TuEia0F1BFCH1UdOG985-15" value="Mixpanel" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="660" y="559.86" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="TuEia0F1BFCH1UdOG985-16" value="API Server" style="whiteSpace=wrap;html=1;aspect=fixed;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="1100" y="234.86" width="195" height="195" as="geometry" />
-        </mxCell>
-        <mxCell id="TuEia0F1BFCH1UdOG985-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TuEia0F1BFCH1UdOG985-19" target="TuEia0F1BFCH1UdOG985-20">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1120" y="549.86" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TuEia0F1BFCH1UdOG985-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TuEia0F1BFCH1UdOG985-19" target="TuEia0F1BFCH1UdOG985-21">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1220" y="559.86" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TuEia0F1BFCH1UdOG985-19" value="Micro Services" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="1110" y="339.86" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="TuEia0F1BFCH1UdOG985-20" value="Account" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="1060" y="559.86" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="TuEia0F1BFCH1UdOG985-21" value="User" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="1170" y="559.86" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="TuEia0F1BFCH1UdOG985-22" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="1480" y="272.36" width="90" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="TuEia0F1BFCH1UdOG985-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="TuEia0F1BFCH1UdOG985-16" target="TuEia0F1BFCH1UdOG985-22">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="TuEia0F1BFCH1UdOG985-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TuEia0F1BFCH1UdOG985-28" target="TuEia0F1BFCH1UdOG985-30">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1110" y="789.86" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TuEia0F1BFCH1UdOG985-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="TuEia0F1BFCH1UdOG985-30" target="TuEia0F1BFCH1UdOG985-32">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="TuEia0F1BFCH1UdOG985-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TuEia0F1BFCH1UdOG985-30" target="TuEia0F1BFCH1UdOG985-33">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="TuEia0F1BFCH1UdOG985-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TuEia0F1BFCH1UdOG985-30" target="TuEia0F1BFCH1UdOG985-34">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="960" y="909.86" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TuEia0F1BFCH1UdOG985-28" value="Ecommerce" style="whiteSpace=wrap;html=1;aspect=fixed;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="787.5" y="709.86" width="100" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="TuEia0F1BFCH1UdOG985-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TuEia0F1BFCH1UdOG985-30" target="TuEia0F1BFCH1UdOG985-31">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="TuEia0F1BFCH1UdOG985-30" value="Ecommerce Backend" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="1147.5" y="709.86" width="100" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="TuEia0F1BFCH1UdOG985-31" value="Ecommerce DB" style="whiteSpace=wrap;html=1;aspect=fixed;shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="1470" y="704.86" width="110" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="TuEia0F1BFCH1UdOG985-32" value="Zuora" style="whiteSpace=wrap;html=1;aspect=fixed;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1030" y="889.86" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="TuEia0F1BFCH1UdOG985-33" value="Oracle ERP" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="1157.5" y="889.86" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="TuEia0F1BFCH1UdOG985-34" value="Payment Gateways" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="1272.5" y="889.86" width="80" height="80" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="r2c0LPfcFOJ88nt7mPGc" name="DocuSign-Legacy">
-    <mxGraphModel dx="2305" dy="1131" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="lonspI5yZ2bNaHoGWHws-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lonspI5yZ2bNaHoGWHws-5" target="lonspI5yZ2bNaHoGWHws-25">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="lonspI5yZ2bNaHoGWHws-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lonspI5yZ2bNaHoGWHws-5" target="lonspI5yZ2bNaHoGWHws-12">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="lonspI5yZ2bNaHoGWHws-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="lonspI5yZ2bNaHoGWHws-5" target="lonspI5yZ2bNaHoGWHws-26">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="lonspI5yZ2bNaHoGWHws-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="lonspI5yZ2bNaHoGWHws-5" target="lonspI5yZ2bNaHoGWHws-27">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="lonspI5yZ2bNaHoGWHws-5" value="App" style="whiteSpace=wrap;html=1;aspect=fixed;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="590" y="195" width="195" height="195" as="geometry" />
-        </mxCell>
-        <mxCell id="lonspI5yZ2bNaHoGWHws-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lonspI5yZ2bNaHoGWHws-7" target="lonspI5yZ2bNaHoGWHws-9">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="lonspI5yZ2bNaHoGWHws-7" value="Client" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="253.75" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="lonspI5yZ2bNaHoGWHws-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lonspI5yZ2bNaHoGWHws-9" target="lonspI5yZ2bNaHoGWHws-5">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="210" y="292.5" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="lonspI5yZ2bNaHoGWHws-9" value="Gateway + Load Balancer" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="350" y="253.75" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="lonspI5yZ2bNaHoGWHws-10" value="Core" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="1220" y="170" width="570" height="320" as="geometry" />
-        </mxCell>
-        <mxCell id="lonspI5yZ2bNaHoGWHws-11" value="Monolithic apps" style="whiteSpace=wrap;html=1;aspect=fixed;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="300" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="lonspI5yZ2bNaHoGWHws-12" value="Mixpanel" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="705" y="510" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="lonspI5yZ2bNaHoGWHws-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.034;exitY=1.001;exitDx=0;exitDy=0;entryX=0.602;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="lonspI5yZ2bNaHoGWHws-10" target="lonspI5yZ2bNaHoGWHws-26">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="lonspI5yZ2bNaHoGWHws-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lonspI5yZ2bNaHoGWHws-15" target="lonspI5yZ2bNaHoGWHws-19">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="lonspI5yZ2bNaHoGWHws-15" value="API Server" style="whiteSpace=wrap;html=1;aspect=fixed;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="1260" y="195" width="195" height="195" as="geometry" />
-        </mxCell>
-        <mxCell id="lonspI5yZ2bNaHoGWHws-16" value="Monolithic API&#39;s" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="1270" y="300" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="lonspI5yZ2bNaHoGWHws-17" value="Relational DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="1660" y="180" width="90" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="lonspI5yZ2bNaHoGWHws-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="lonspI5yZ2bNaHoGWHws-15" target="lonspI5yZ2bNaHoGWHws-17">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1695" y="440" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="lonspI5yZ2bNaHoGWHws-19" value="Zuora" style="whiteSpace=wrap;html=1;aspect=fixed;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1550" y="600" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="lonspI5yZ2bNaHoGWHws-20" value="No SQL DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="1660" y="340" width="90" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="lonspI5yZ2bNaHoGWHws-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="lonspI5yZ2bNaHoGWHws-15" target="lonspI5yZ2bNaHoGWHws-20">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="lonspI5yZ2bNaHoGWHws-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lonspI5yZ2bNaHoGWHws-23" target="lonspI5yZ2bNaHoGWHws-19">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="lonspI5yZ2bNaHoGWHws-23" value="Quartz Batch Jobs" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="1710" y="540" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="lonspI5yZ2bNaHoGWHws-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lonspI5yZ2bNaHoGWHws-25" target="lonspI5yZ2bNaHoGWHws-15">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="lonspI5yZ2bNaHoGWHws-25" value="Load Balancer" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="960" y="253.75" width="77.5" height="77.5" as="geometry" />
-        </mxCell>
-        <mxCell id="lonspI5yZ2bNaHoGWHws-26" value="Azure Monitor &amp;amp; Analytics" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="950" y="790" width="480" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="lonspI5yZ2bNaHoGWHws-27" value="Akamai (CDN)" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="530" y="520" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="lonspI5yZ2bNaHoGWHws-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="lonspI5yZ2bNaHoGWHws-29" target="lonspI5yZ2bNaHoGWHws-26">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="lonspI5yZ2bNaHoGWHws-29" value="Grafana" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
-          <mxGeometry x="1530" y="770" width="80" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="lonspI5yZ2bNaHoGWHws-30" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Problem Statement&lt;/h1&gt;&lt;p&gt;* SSOT (Single source of truth)&lt;/p&gt;&lt;p&gt;* Bottlenecks during peak hours, invoicing delays, payment reconciliation errors&lt;/p&gt;&lt;p&gt;* Latency issues&lt;/p&gt;&lt;p&gt;* Hidden Vulnerability (Paypal abuse)&lt;/p&gt;&lt;p&gt;* Need for Realtime payment processing&lt;/p&gt;&lt;p&gt;* Convoluted API&#39;s (voilating single responsibility principle)&lt;/p&gt;&lt;p&gt;* Legacy Zuora API Integration&lt;/p&gt;&lt;p&gt;* Overloaded Batch Jobs with limited capabilities&lt;/p&gt;&lt;p&gt;* Alerts were very basic&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1850" y="360" width="370" height="470" as="geometry" />
-        </mxCell>
-        <mxCell id="lonspI5yZ2bNaHoGWHws-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.892;entryY=1.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="lonspI5yZ2bNaHoGWHws-23" target="lonspI5yZ2bNaHoGWHws-15">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="TK03BzCCXb5E88C19SlF" name="Docusign-New">
-    <mxGraphModel dx="3386" dy="1723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="F9d1KAiT2OdDwuA7FVRH-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="F9d1KAiT2OdDwuA7FVRH-5" target="F9d1KAiT2OdDwuA7FVRH-23">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="F9d1KAiT2OdDwuA7FVRH-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="F9d1KAiT2OdDwuA7FVRH-5" target="F9d1KAiT2OdDwuA7FVRH-13">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="F9d1KAiT2OdDwuA7FVRH-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="F9d1KAiT2OdDwuA7FVRH-5" target="F9d1KAiT2OdDwuA7FVRH-24">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="F9d1KAiT2OdDwuA7FVRH-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="F9d1KAiT2OdDwuA7FVRH-5" target="F9d1KAiT2OdDwuA7FVRH-25">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="F9d1KAiT2OdDwuA7FVRH-5" value="App" style="whiteSpace=wrap;html=1;aspect=fixed;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="850" y="265" width="195" height="195" as="geometry" />
-        </mxCell>
-        <mxCell id="F9d1KAiT2OdDwuA7FVRH-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="F9d1KAiT2OdDwuA7FVRH-7" target="F9d1KAiT2OdDwuA7FVRH-9">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="F9d1KAiT2OdDwuA7FVRH-7" value="Client" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="321.25" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="F9d1KAiT2OdDwuA7FVRH-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="F9d1KAiT2OdDwuA7FVRH-9" target="F9d1KAiT2OdDwuA7FVRH-5">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="470" y="362.5" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="F9d1KAiT2OdDwuA7FVRH-9" value="Istio (Gateway + Load Balancer)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="600" y="321.25" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="F9d1KAiT2OdDwuA7FVRH-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="F9d1KAiT2OdDwuA7FVRH-11" target="F9d1KAiT2OdDwuA7FVRH-33">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1622.75" y="170" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="F9d1KAiT2OdDwuA7FVRH-11" value="Core (Azure)" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="1480" y="240" width="570" height="320" as="geometry" />
-        </mxCell>
-        <mxCell id="F9d1KAiT2OdDwuA7FVRH-12" value="Micro front ends" style="whiteSpace=wrap;html=1;aspect=fixed;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
-          <mxGeometry x="860" y="370" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="F9d1KAiT2OdDwuA7FVRH-13" value="Mixpanel" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="965" y="580" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="F9d1KAiT2OdDwuA7FVRH-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.034;exitY=1.001;exitDx=0;exitDy=0;entryX=0.602;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="F9d1KAiT2OdDwuA7FVRH-11" target="F9d1KAiT2OdDwuA7FVRH-24">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="F9d1KAiT2OdDwuA7FVRH-15" value="API Server" style="whiteSpace=wrap;html=1;aspect=fixed;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="1520" y="265" width="195" height="195" as="geometry" />
-        </mxCell>
-        <mxCell id="F9d1KAiT2OdDwuA7FVRH-16" value="Micro Services" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="1530" y="370" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="F9d1KAiT2OdDwuA7FVRH-17" value="Relational DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="1920" y="260" width="90" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="F9d1KAiT2OdDwuA7FVRH-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="F9d1KAiT2OdDwuA7FVRH-15" target="F9d1KAiT2OdDwuA7FVRH-17">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1955" y="510" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="F9d1KAiT2OdDwuA7FVRH-19" value="Zuora" style="whiteSpace=wrap;html=1;aspect=fixed;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="2030" y="630" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="F9d1KAiT2OdDwuA7FVRH-20" value="No SQL DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="1920" y="410" width="90" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="F9d1KAiT2OdDwuA7FVRH-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="F9d1KAiT2OdDwuA7FVRH-15" target="F9d1KAiT2OdDwuA7FVRH-20">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="F9d1KAiT2OdDwuA7FVRH-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="F9d1KAiT2OdDwuA7FVRH-23" target="F9d1KAiT2OdDwuA7FVRH-15">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="F9d1KAiT2OdDwuA7FVRH-23" value="Istio (Gateway + Load Balancer)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="1220" y="323.75" width="77.5" height="77.5" as="geometry" />
-        </mxCell>
-        <mxCell id="F9d1KAiT2OdDwuA7FVRH-24" value="Azure Monitor &amp;amp; Analytics" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1210" y="860" width="480" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="F9d1KAiT2OdDwuA7FVRH-25" value="Akamai (CDN)" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="790" y="590" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="F9d1KAiT2OdDwuA7FVRH-26" value="Mulesoft" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="1750" y="630" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="F9d1KAiT2OdDwuA7FVRH-27" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="F9d1KAiT2OdDwuA7FVRH-26" target="F9d1KAiT2OdDwuA7FVRH-19">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1650" y="690" as="sourcePoint" />
-            <mxPoint x="1700" y="640" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="F9d1KAiT2OdDwuA7FVRH-28" value="&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 12px; text-align: left; text-wrap-mode: wrap; background-color: transparent;&quot;&gt;Webhooks&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 12px; text-align: left; text-wrap-mode: wrap; background-color: transparent;&quot;&gt;(Event-Driven)&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="F9d1KAiT2OdDwuA7FVRH-27">
-          <mxGeometry x="0.1429" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="F9d1KAiT2OdDwuA7FVRH-29" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="F9d1KAiT2OdDwuA7FVRH-26" target="F9d1KAiT2OdDwuA7FVRH-15">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1580" y="710" as="sourcePoint" />
-            <mxPoint x="1630" y="660" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="F9d1KAiT2OdDwuA7FVRH-30" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Real-time Zuora-Core Integration with Mulesoft (Integration Platform)&lt;/h1&gt;&lt;p&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 12px;&quot;&gt;1.&amp;nbsp;&lt;span style=&quot;background-color: transparent; white-space-collapse: preserve; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Decoupling and Reduced Dependencies (Contract Abstraction)&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;background-color: transparent; white-space-collapse: preserve; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;2. &lt;/span&gt;&lt;span style=&quot;background-color: transparent; white-space-collapse: preserve; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Transformation and Data Orchestration (via DataWeave)&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;3. &lt;/span&gt;&lt;span style=&quot;background-color: transparent; white-space-collapse: preserve; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Robust Error Handling and Reliability (OOTB exponential backoff and dead letter queues)&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;background-color: transparent; white-space-collapse: preserve; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;4. &lt;/span&gt;&lt;span style=&quot;background-color: transparent; white-space-collapse: preserve; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Scalability and Performance Management (throttling and rate limiting, async queues in some usecases)&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;background-color: transparent; white-space-collapse: preserve; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;5. &lt;/span&gt;&lt;span style=&quot;background-color: transparent; white-space-collapse: preserve; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Centralized Governance, Monitoring, and Security (AnyPoint Platform)&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;background-color: transparent; white-space-collapse: preserve; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="2150" y="560" width="400" height="320" as="geometry" />
-        </mxCell>
-        <mxCell id="F9d1KAiT2OdDwuA7FVRH-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.468;entryY=1.042;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="F9d1KAiT2OdDwuA7FVRH-32" target="F9d1KAiT2OdDwuA7FVRH-24">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="F9d1KAiT2OdDwuA7FVRH-32" value="Grafana" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
-          <mxGeometry x="1390" y="1010" width="90" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="F9d1KAiT2OdDwuA7FVRH-33" value="Distributed Cache" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="1580" y="100" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="F9d1KAiT2OdDwuA7FVRH-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="F9d1KAiT2OdDwuA7FVRH-36" target="F9d1KAiT2OdDwuA7FVRH-24">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="F9d1KAiT2OdDwuA7FVRH-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F9d1KAiT2OdDwuA7FVRH-36" target="F9d1KAiT2OdDwuA7FVRH-26">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1790" y="1020" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="F9d1KAiT2OdDwuA7FVRH-36" value="PagerDuty" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="2020" y="1010" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="F9d1KAiT2OdDwuA7FVRH-37" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Metrics&lt;/h1&gt;&lt;p&gt;Product&lt;/p&gt;&lt;p&gt;* Invoicing Time Reduction (Average time for invoice generation)&lt;/p&gt;&lt;p&gt;* Payment Reconciliation Accuracy (Percentage of payments automatically matched to invoices without manual intervention)&lt;/p&gt;&lt;p&gt;* Days Sales Outstanding (DSO) Reduction (Average number of days it takes to collect payment)&lt;/p&gt;&lt;p&gt;*&amp;nbsp;Manual Effort Reduction (Person hours)&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Engineering Excellence&lt;/p&gt;&lt;p&gt;*&amp;nbsp;Synchronization Error Rate (Percentage of discrepancies found between Zuora (SSOT) and Core System for synchronized attributes)&lt;/p&gt;&lt;p&gt;*&amp;nbsp;Data Staleness (Average time from a change in Zuora to Core)&lt;/p&gt;&lt;p&gt;*&amp;nbsp;Integration Flow Success Rate (Successful message processing)&lt;/p&gt;&lt;p&gt;* Uptime / Availability&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1770" y="1210" width="180" height="830" as="geometry" />
-        </mxCell>
-        <mxCell id="F9d1KAiT2OdDwuA7FVRH-38" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Problem Statement&lt;/h1&gt;&lt;p&gt;* SSOT (Single source of truth)&lt;/p&gt;&lt;p&gt;* Bottlenecks during peak hours, invoicing delays, payment reconciliation errors&lt;/p&gt;&lt;p&gt;* Latency issues&lt;/p&gt;&lt;p&gt;* Hidden Vulnerability (Paypal abuse)&lt;/p&gt;&lt;p&gt;* Need for Realtime payment processing&lt;/p&gt;&lt;p&gt;* Convoluted API&#39;s (voilating single responsibility principle)&lt;/p&gt;&lt;p&gt;* Legacy Zuora API Integration&lt;/p&gt;&lt;p&gt;* Overloaded Batch Jobs with limited capabilities&lt;/p&gt;&lt;p&gt;*&amp;nbsp;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="830" y="1210" width="180" height="470" as="geometry" />
-        </mxCell>
-        <mxCell id="F9d1KAiT2OdDwuA7FVRH-39" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Solution&lt;/h1&gt;&lt;p&gt;* Zuora as SSOT for Billing, Invoice, Payment and Subscription&lt;/p&gt;&lt;p&gt;* Core is SSOT for Product objects&lt;/p&gt;&lt;p&gt;* MuleSoft received data from Zuora webhooks and performs data transformation. Calls Core API&#39;s to update&lt;/p&gt;&lt;p&gt;* Core provides microservices API&#39;s for MuleSoft. Ensures idempotency. Updates data in Core DB&#39;s&lt;/p&gt;&lt;p&gt;* Realtime payment processing&amp;nbsp;&lt;/p&gt;&lt;p&gt;* Introduction of Caching and DB Optimization&lt;/p&gt;&lt;p&gt;* Learning mode during migration from Batch job to Mulesoft integration&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1150" y="1180" width="180" height="550" as="geometry" />
-        </mxCell>
-        <mxCell id="F9d1KAiT2OdDwuA7FVRH-40" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Impact&lt;/h1&gt;&lt;p&gt;Product&lt;/p&gt;&lt;p&gt;* Achieved realtime invoicing and payment collection (100% improvement compared to 7 days)&lt;/p&gt;&lt;p&gt;* 90% reduction in discrepancies during payment reconciliation process&lt;/p&gt;&lt;p&gt;* Reduced DSO from avg 5 days to a less than a day, i.e. 80% reduction&lt;/p&gt;&lt;p&gt;*&amp;nbsp;Achieved ~95% reduction in manual effort&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Engineering Excellence&lt;/p&gt;&lt;p&gt;*&amp;nbsp;&amp;lt;0.1% or near zero for critical attributes&lt;/p&gt;&lt;p&gt;* W.r.t Data Staleness achieved near real-time&amp;nbsp;&lt;/p&gt;&lt;p&gt;* Integration Flow success rate: &amp;gt;99.9%&lt;/p&gt;&lt;p&gt;* Uptime increased to &amp;gt;99.9%&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="2080" y="1210" width="190" height="600" as="geometry" />
-        </mxCell>
-        <mxCell id="F9d1KAiT2OdDwuA7FVRH-41" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Learnings&lt;/h1&gt;&lt;p&gt;*&amp;nbsp;Clear SSOT is important&lt;/p&gt;&lt;p&gt;*&amp;nbsp;Idempotency is Non-Negotiable for Core API&#39;s&lt;/p&gt;&lt;p&gt;* Thorough and early on testing&lt;/p&gt;&lt;p&gt;* Collaboration across teams and stakeholders&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="2930" y="1200" width="180" height="560" as="geometry" />
-        </mxCell>
-        <mxCell id="F9d1KAiT2OdDwuA7FVRH-42" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Challenges&lt;/h1&gt;&lt;p&gt;*&amp;nbsp;Legacy System API Limitations&lt;/p&gt;&lt;p&gt;* Complex Data Transformation&lt;/p&gt;&lt;p&gt;*&amp;nbsp;Ensuring Idempotency in Core (added unique constraints)&lt;/p&gt;&lt;p&gt;*&amp;nbsp;Testing Complexity (end to end testing across Zuora Sandbox, Mulesoft, Core Dev/QA)&lt;/p&gt;&lt;p&gt;* Goveranance /&amp;nbsp;Transitioning Business Processes&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;* Combined Engineering Adoption&lt;/p&gt;&lt;p&gt;* Addressing Us vs Them mentality&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1500" y="1210" width="180" height="430" as="geometry" />
-        </mxCell>
-        <mxCell id="F9d1KAiT2OdDwuA7FVRH-43" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Alerts&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Product&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;*&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;High Volume of DLQ Messages (&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;5 messages in 15 minutes&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;*&amp;nbsp;Sustained Integration Flow Errors (&amp;gt;1% error rate over 5 minutes)&lt;/p&gt;&lt;p&gt;*&amp;nbsp;Core System API Unavailability (non-2xx status codes)&lt;/p&gt;&lt;p&gt;*&amp;nbsp;Increased Flow Latency (alerts in case processing time increases by specified threshold)&lt;/p&gt;&lt;p&gt;* Worker CPU/Memory Utilization&lt;/p&gt;&lt;p&gt;*&amp;nbsp;Message Backlogs (number of pending message increases a specified threshold)&lt;/p&gt;&lt;p&gt;*&amp;nbsp;Unauthorized API Access Attempts&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="2390" y="1210" width="465" height="310" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36" version="27.0.9" pages="6">
   <diagram id="wf-KizYnAGKLBIfAIfjt" name="RateLimiter">
-    <mxGraphModel dx="1185" dy="603" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1823" dy="943" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="yut6KgCmZ2R_P063SqCX-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Rate Limiter&lt;/h1&gt;&lt;p&gt;Specified no of requests in specified period of time&lt;/p&gt;&lt;p&gt;Prevent DDos attacks&lt;/p&gt;&lt;p&gt;Reduce Cost as less servers are needed&lt;/p&gt;&lt;p&gt;Prevents load on the Server&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="yut6KgCmZ2R_P063SqCX-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Rate Limiter&lt;/h1&gt;&lt;p&gt;Specified no of requests in specified period of time&lt;/p&gt;&lt;p&gt;Prevent DDos attacks&lt;/p&gt;&lt;p&gt;Reduce Cost as less servers are needed&lt;/p&gt;&lt;p&gt;Prevents load on the Server&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="130" y="70" width="290" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="yut6KgCmZ2R_P063SqCX-2" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Requirements&lt;/h1&gt;&lt;p&gt;Server Side Rate Limiter since Client Side could be forged or bypassed&lt;/p&gt;&lt;p&gt;Throttle based on identifier such as UserId, IP Address&lt;/p&gt;&lt;p&gt;IP Address better since it helps narrow down user, however new userId can be created on the fly.&lt;/p&gt;&lt;p&gt;Inform the user when they are blocked&lt;/p&gt;&lt;p&gt;Http protocol with 429 status code to tell Too Many Requests&lt;/p&gt;&lt;p&gt;Instrumentation and Traffic Pattern analysis&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="yut6KgCmZ2R_P063SqCX-2" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Requirements&lt;/h1&gt;&lt;p&gt;Server Side Rate Limiter since Client Side could be forged or bypassed&lt;/p&gt;&lt;p&gt;Throttle based on identifier such as UserId, IP Address&lt;/p&gt;&lt;p&gt;IP Address better since it helps narrow down user, however new userId can be created on the fly.&lt;/p&gt;&lt;p&gt;Inform the user when they are blocked&lt;/p&gt;&lt;p&gt;Http protocol with 429 status code to tell Too Many Requests&lt;/p&gt;&lt;p&gt;Instrumentation and Traffic Pattern analysis&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="130" y="240" width="320" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="yut6KgCmZ2R_P063SqCX-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="yut6KgCmZ2R_P063SqCX-4">
+        <mxCell id="yut6KgCmZ2R_P063SqCX-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="yut6KgCmZ2R_P063SqCX-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="738" y="470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yut6KgCmZ2R_P063SqCX-4" value="Client(s)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="yut6KgCmZ2R_P063SqCX-4" value="Client(s)" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="530" y="430" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="yut6KgCmZ2R_P063SqCX-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yut6KgCmZ2R_P063SqCX-21" target="yut6KgCmZ2R_P063SqCX-10">
+        <mxCell id="yut6KgCmZ2R_P063SqCX-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="yut6KgCmZ2R_P063SqCX-21" target="yut6KgCmZ2R_P063SqCX-10" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1004" y="340" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yut6KgCmZ2R_P063SqCX-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="yut6KgCmZ2R_P063SqCX-21" target="yut6KgCmZ2R_P063SqCX-20">
+        <mxCell id="yut6KgCmZ2R_P063SqCX-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="yut6KgCmZ2R_P063SqCX-21" target="yut6KgCmZ2R_P063SqCX-20" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1004" y="260" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yut6KgCmZ2R_P063SqCX-7" value="Success" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yut6KgCmZ2R_P063SqCX-10" target="yut6KgCmZ2R_P063SqCX-12">
+        <mxCell id="yut6KgCmZ2R_P063SqCX-7" value="Success" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="yut6KgCmZ2R_P063SqCX-10" target="yut6KgCmZ2R_P063SqCX-12" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1154" y="470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yut6KgCmZ2R_P063SqCX-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="yut6KgCmZ2R_P063SqCX-10" target="yut6KgCmZ2R_P063SqCX-4">
+        <mxCell id="yut6KgCmZ2R_P063SqCX-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="yut6KgCmZ2R_P063SqCX-10" target="yut6KgCmZ2R_P063SqCX-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1004" y="570" />
@@ -456,83 +41,83 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="yut6KgCmZ2R_P063SqCX-9" value="Failure: Http 429 Status Code" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="yut6KgCmZ2R_P063SqCX-8">
+        <mxCell id="yut6KgCmZ2R_P063SqCX-9" value="Failure: Http 429 Status Code" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="yut6KgCmZ2R_P063SqCX-8" connectable="0" vertex="1">
           <mxGeometry x="0.3" y="2" relative="1" as="geometry">
             <mxPoint x="36" y="-2" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yut6KgCmZ2R_P063SqCX-10" value="Rate Limiter (s&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="yut6KgCmZ2R_P063SqCX-10" value="Rate Limiter (s&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="954" y="420" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="yut6KgCmZ2R_P063SqCX-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="yut6KgCmZ2R_P063SqCX-12">
+        <mxCell id="yut6KgCmZ2R_P063SqCX-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" parent="1" source="yut6KgCmZ2R_P063SqCX-12" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1034" y="490" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yut6KgCmZ2R_P063SqCX-12" value="API Server(s&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="yut6KgCmZ2R_P063SqCX-12" value="API Server(s&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="1164" y="430" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="yut6KgCmZ2R_P063SqCX-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.16;exitY=0.7;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="yut6KgCmZ2R_P063SqCX-10" target="yut6KgCmZ2R_P063SqCX-27">
+        <mxCell id="yut6KgCmZ2R_P063SqCX-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.16;exitY=0.7;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="yut6KgCmZ2R_P063SqCX-10" target="yut6KgCmZ2R_P063SqCX-27" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="600" y="420" as="sourcePoint" />
             <mxPoint x="830" y="490" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yut6KgCmZ2R_P063SqCX-14" value="Http 200" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="yut6KgCmZ2R_P063SqCX-13">
+        <mxCell id="yut6KgCmZ2R_P063SqCX-14" value="Http 200" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="yut6KgCmZ2R_P063SqCX-13" connectable="0" vertex="1">
           <mxGeometry x="-0.0223" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yut6KgCmZ2R_P063SqCX-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="yut6KgCmZ2R_P063SqCX-22" target="yut6KgCmZ2R_P063SqCX-18">
+        <mxCell id="yut6KgCmZ2R_P063SqCX-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="yut6KgCmZ2R_P063SqCX-22" target="yut6KgCmZ2R_P063SqCX-18" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1184" y="620" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yut6KgCmZ2R_P063SqCX-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.688;exitY=0.85;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yut6KgCmZ2R_P063SqCX-10" target="yut6KgCmZ2R_P063SqCX-22">
+        <mxCell id="yut6KgCmZ2R_P063SqCX-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.688;exitY=0.85;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="yut6KgCmZ2R_P063SqCX-10" target="yut6KgCmZ2R_P063SqCX-22" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="924" y="710" as="sourcePoint" />
             <mxPoint x="1124" y="580" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yut6KgCmZ2R_P063SqCX-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="yut6KgCmZ2R_P063SqCX-18" target="yut6KgCmZ2R_P063SqCX-19">
+        <mxCell id="yut6KgCmZ2R_P063SqCX-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="yut6KgCmZ2R_P063SqCX-18" target="yut6KgCmZ2R_P063SqCX-19" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1444" y="620" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yut6KgCmZ2R_P063SqCX-18" value="Logging" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="yut6KgCmZ2R_P063SqCX-18" value="Logging" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="1274" y="580" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="yut6KgCmZ2R_P063SqCX-19" value="Logging DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="yut6KgCmZ2R_P063SqCX-19" value="Logging DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="1450" y="580" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="yut6KgCmZ2R_P063SqCX-20" value="Rules Engine" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="yut6KgCmZ2R_P063SqCX-20" value="Rules Engine" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="964" y="100" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="yut6KgCmZ2R_P063SqCX-21" value="Rules Cache" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="yut6KgCmZ2R_P063SqCX-21" value="Rules Cache" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="944" y="270" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="yut6KgCmZ2R_P063SqCX-22" value="Cache&amp;nbsp;&lt;div&gt;(High Throughput)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="yut6KgCmZ2R_P063SqCX-22" value="Cache&amp;nbsp;&lt;div&gt;(High Throughput)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1054" y="590" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="yut6KgCmZ2R_P063SqCX-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.61;exitY=0.09;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.583;entryY=0.967;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="yut6KgCmZ2R_P063SqCX-10" target="yut6KgCmZ2R_P063SqCX-21">
+        <mxCell id="yut6KgCmZ2R_P063SqCX-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.61;exitY=0.09;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.583;entryY=0.967;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="yut6KgCmZ2R_P063SqCX-10" target="yut6KgCmZ2R_P063SqCX-21" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1034" y="410" as="sourcePoint" />
             <mxPoint x="1084" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yut6KgCmZ2R_P063SqCX-24" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Different algorithm Options&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Token Bucket System:&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Fixed Window System:&amp;nbsp;&lt;/p&gt;&lt;p&gt;Sliding Window:&amp;nbsp;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="yut6KgCmZ2R_P063SqCX-24" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Different algorithm Options&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Token Bucket System:&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Fixed Window System:&amp;nbsp;&lt;/p&gt;&lt;p&gt;Sliding Window:&amp;nbsp;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="130" y="520" width="320" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="yut6KgCmZ2R_P063SqCX-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="yut6KgCmZ2R_P063SqCX-27" target="yut6KgCmZ2R_P063SqCX-4">
+        <mxCell id="yut6KgCmZ2R_P063SqCX-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="yut6KgCmZ2R_P063SqCX-27" target="yut6KgCmZ2R_P063SqCX-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yut6KgCmZ2R_P063SqCX-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yut6KgCmZ2R_P063SqCX-27" target="yut6KgCmZ2R_P063SqCX-10">
+        <mxCell id="yut6KgCmZ2R_P063SqCX-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="yut6KgCmZ2R_P063SqCX-27" target="yut6KgCmZ2R_P063SqCX-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yut6KgCmZ2R_P063SqCX-27" value="Load Balancer" style="whiteSpace=wrap;html=1;aspect=fixed;shape=process;backgroundOutline=1;" vertex="1" parent="1">
+        <mxCell id="yut6KgCmZ2R_P063SqCX-27" value="Load Balancer" style="whiteSpace=wrap;html=1;aspect=fixed;shape=process;backgroundOutline=1;" parent="1" vertex="1">
           <mxGeometry x="740" y="430" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="yut6KgCmZ2R_P063SqCX-28" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;What to do when users get rate limited&lt;/h1&gt;&lt;p&gt;Discuss traffic patterns when integrating&lt;/p&gt;&lt;p&gt;Consider moving to higher plan&lt;/p&gt;&lt;p&gt;Handle scenario gracefully. Eg, retry&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="yut6KgCmZ2R_P063SqCX-28" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;What to do when users get rate limited&lt;/h1&gt;&lt;p&gt;Discuss traffic patterns when integrating&lt;/p&gt;&lt;p&gt;Consider moving to higher plan&lt;/p&gt;&lt;p&gt;Handle scenario gracefully. Eg, retry&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="130" y="700" width="390" height="240" as="geometry" />
         </mxCell>
       </root>
@@ -1725,86 +1310,6 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="BM8zh54oFEZDL_S1QSXD" name="AmazonPrime">
-    <mxGraphModel dx="1185" dy="603" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="AsHtNMLsNTLCxXA9mggR" name="AutocompleteSearch">
-    <mxGraphModel dx="1185" dy="603" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="_Py8eU-1QK_QJ3fdEzKH" name="ChatSystem">
-    <mxGraphModel dx="1185" dy="603" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="ElrfjcbxXBRod3dKMUDI" name="Dropbox">
-    <mxGraphModel dx="1185" dy="603" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="xuDd2va01wuTy5x4FWpM" name="GoogleDrive">
-    <mxGraphModel dx="1185" dy="603" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="m3R-a1uwguVm6OrozAWQ" name="GoogleDoc">
-    <mxGraphModel dx="1185" dy="603" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="LYqWkGhWjBnTeOWA60cs" name="NewsFeed">
-    <mxGraphModel dx="1185" dy="603" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="A83ryYti0Zb8g_t8w_tQ" name="NotificationSystem">
-    <mxGraphModel dx="1185" dy="603" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="pBWcln6Emar2pVjUjSf0" name="PasteBin">
-    <mxGraphModel dx="1185" dy="603" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="4chhZBwdLlZkyJ22L9Ky" name="Shopify">
-    <mxGraphModel dx="1185" dy="603" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-      </root>
-    </mxGraphModel>
-  </diagram>
   <diagram id="qEJA5s6f-e9VgSzhkvTb" name="TagService">
     <mxGraphModel dx="2370" dy="1206" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1906,48 +1411,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="IVwO2s3eIDwqKJXFQ0El" name="TicketMaster">
-    <mxGraphModel dx="1185" dy="603" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="NeJ0mVNk6Gh_qI-mA2y_" name="Ticktok">
-    <mxGraphModel dx="1185" dy="603" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="YBKukvvEEBlLJKOz4rye" name="Uber">
-    <mxGraphModel dx="1185" dy="603" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="Z4OXMOEZ4VprUP4FX7wD" name="Webcrawler">
-    <mxGraphModel dx="1185" dy="603" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="Y-VIjS3oybEWJtvYVs1v" name="Youtube">
-    <mxGraphModel dx="1185" dy="603" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-      </root>
-    </mxGraphModel>
-  </diagram>
   <diagram id="V-8ojAOd0IYdUsNzRLoI" name="EmailArchive">
-    <mxGraphModel dx="2305" dy="1134" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1580" dy="817" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2014,41 +1479,9 @@
         <mxCell id="4u1FXxSwoDmPP1FRX0bt-21" style="endArrow=block;html=1;" parent="1" source="4u1FXxSwoDmPP1FRX0bt-18" target="4u1FXxSwoDmPP1FRX0bt-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fayFRDLXmqZ6IOXXtcFV-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Step-by-Step Interaction Flow&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;h3 data-sourcepos=&quot;107:1-107:66&quot;&gt;&lt;/h3&gt;&lt;p&gt;&lt;/p&gt;&lt;ol data-sourcepos=&quot;66:1-106:0&quot;&gt;&lt;li data-sourcepos=&quot;66:1-73:0&quot;&gt;&lt;p data-sourcepos=&quot;66:5-66:38&quot;&gt;&lt;strong&gt;Client Action (User Archives)&quot;&lt;/strong&gt;&lt;/p&gt;&lt;ul data-sourcepos=&quot;67:5-73:0&quot;&gt;&lt;li data-sourcepos=&quot;67:5-67:67&quot;&gt;User clicks &quot;Archive&quot; on an email/conversation in the client.&lt;/li&gt;&lt;li data-sourcepos=&quot;68:5-68:150&quot;&gt;&lt;strong&gt;Client (Optimistic UI Update):&lt;/strong&gt; The client immediately moves the email to the &quot;Archive&quot; view locally, providing instant feedback to the user.&lt;/li&gt;&lt;li data-sourcepos=&quot;69:5-73:0&quot;&gt;&lt;strong&gt;Client (API Request):&lt;/strong&gt; The client sends an &lt;code&gt;HTTP POST&lt;/code&gt; request to the API Gateway:&lt;ul data-sourcepos=&quot;70:9-73:0&quot;&gt;&lt;li data-sourcepos=&quot;70:9-70:49&quot;&gt;&lt;code&gt;URL: /api/v1/emails/{emailId}/archive&lt;/code&gt;&lt;/li&gt;&lt;li data-sourcepos=&quot;71:9-71:96&quot;&gt;&lt;code&gt;Body: { &quot;userId&quot;: &quot;...&quot;, &quot;clientVersion&quot;: &quot;timestamp_or_version_id_of_email_state&quot; }&lt;/code&gt;&lt;/li&gt;&lt;li data-sourcepos=&quot;72:9-73:0&quot;&gt;&lt;em&gt;(Note: &lt;code&gt;clientVersion&lt;/code&gt; helps with optimistic concurrency. It indicates the state the client saw when it initiated the archive.)&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;br&gt;&lt;li data-sourcepos=&quot;74:1-78:0&quot;&gt;&lt;p data-sourcepos=&quot;74:5-74:20&quot;&gt;&lt;strong&gt;API Gateway:&lt;/strong&gt;&lt;/p&gt;&lt;ul data-sourcepos=&quot;75:5-78:0&quot;&gt;&lt;li data-sourcepos=&quot;75:5-75:27&quot;&gt;Receives the request.&lt;/li&gt;&lt;li data-sourcepos=&quot;76:5-76:44&quot;&gt;Authenticates and authorizes the user.&lt;/li&gt;&lt;li data-sourcepos=&quot;77:5-78:0&quot;&gt;Forwards the request to an available API Server.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;br&gt;&lt;li data-sourcepos=&quot;79:1-85:0&quot;&gt;&lt;p data-sourcepos=&quot;79:5-79:19&quot;&gt;&lt;strong&gt;API Server:&lt;/strong&gt;&lt;/p&gt;&lt;ul data-sourcepos=&quot;80:5-85:0&quot;&gt;&lt;li data-sourcepos=&quot;80:5-80:28&quot;&gt;Validates the request.&lt;/li&gt;&lt;li data-sourcepos=&quot;81:5-83:106&quot;&gt;&lt;strong&gt;Enqueues Archive Event:&lt;/strong&gt; Instead of directly updating the database, it publishes an &lt;code&gt;ArchiveEmailEvent&lt;/code&gt; message to the Message Queue.&lt;ul data-sourcepos=&quot;82:9-83:106&quot;&gt;&lt;li data-sourcepos=&quot;82:9-82:31&quot;&gt;&lt;code&gt;Topic: user_actions&lt;/code&gt;&lt;/li&gt;&lt;li data-sourcepos=&quot;83:9-83:106&quot;&gt;&lt;code&gt;Message: { &quot;type&quot;: &quot;ArchiveEmail&quot;, &quot;emailId&quot;: &quot;...&quot;, &quot;userId&quot;: &quot;...&quot;, &quot;clientVersion&quot;: &quot;...&quot; }&lt;/code&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li data-sourcepos=&quot;84:5-85:0&quot;&gt;Sends an &lt;code&gt;HTTP 202 Accepted&lt;/code&gt; response back to the client immediately (indicating the request is being processed asynchronously).&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;br&gt;&lt;li data-sourcepos=&quot;86:1-98:0&quot;&gt;&lt;p data-sourcepos=&quot;86:5-86:62&quot;&gt;&lt;strong&gt;Action Processor Worker (Consumes from Message Queue):&lt;/strong&gt;&lt;/p&gt;&lt;ul data-sourcepos=&quot;87:5-98:0&quot;&gt;&lt;li data-sourcepos=&quot;87:5-87:78&quot;&gt;A worker consumes the &lt;code&gt;ArchiveEmailEvent&lt;/code&gt; from the &lt;code&gt;user_actions&lt;/code&gt; queue.&lt;/li&gt;&lt;li data-sourcepos=&quot;88:5-88:137&quot;&gt;&lt;strong&gt;Database Read:&lt;/strong&gt; Fetches the current state of the &lt;code&gt;emailId&lt;/code&gt; from the Database (e.g., conversation state, last updated timestamp).&lt;/li&gt;&lt;li data-sourcepos=&quot;89:5-92:102&quot;&gt;&lt;strong&gt;Conflict Detection:&lt;/strong&gt; Compares the &lt;code&gt;clientVersion&lt;/code&gt; from the event with the &lt;code&gt;lastUpdated&lt;/code&gt; timestamp in the database.&lt;ul data-sourcepos=&quot;90:9-92:102&quot;&gt;&lt;li data-sourcepos=&quot;90:9-91:167&quot;&gt;&lt;strong&gt;If &lt;code&gt;clientVersion&lt;/code&gt; is older than &lt;code&gt;lastUpdated&lt;/code&gt; (conflict detected):&lt;/strong&gt; This means the email state has changed &lt;em&gt;after&lt;/em&gt; the client initiated the archive but &lt;em&gt;before&lt;/em&gt; this worker processed it (e.g., a new thread arrived).&lt;ul data-sourcepos=&quot;91:13-91:167&quot;&gt;&lt;li data-sourcepos=&quot;91:13-91:167&quot;&gt;&lt;strong&gt;Conflict Resolution (Archive Wins):&lt;/strong&gt; The worker proceeds to archive the email anyway. Any new threads for this email will also be considered archived.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li data-sourcepos=&quot;92:9-92:102&quot;&gt;&lt;strong&gt;If &lt;code&gt;clientVersion&lt;/code&gt; matches or is newer (no conflict):&lt;/strong&gt; The state is as the client saw it.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li data-sourcepos=&quot;93:5-95:41&quot;&gt;&lt;strong&gt;Database Write:&lt;/strong&gt; Updates the email/conversation record in the Database:&lt;ul data-sourcepos=&quot;94:9-95:41&quot;&gt;&lt;li data-sourcepos=&quot;94:9-94:35&quot;&gt;Set &lt;code&gt;status = &#39;ARCHIVED&#39;&lt;/code&gt;&lt;/li&gt;&lt;li data-sourcepos=&quot;95:9-95:41&quot;&gt;Update &lt;code&gt;lastUpdated&lt;/code&gt; timestamp.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li data-sourcepos=&quot;96:5-96:102&quot;&gt;&lt;strong&gt;Cache Invalidation:&lt;/strong&gt; Invalidates relevant entries in the Cache (e.g., the user&#39;s inbox view).&lt;/li&gt;&lt;li data-sourcepos=&quot;97:5-98:0&quot;&gt;&lt;strong&gt;Real-time Update (Optional/Important):&lt;/strong&gt; Publishes an &lt;code&gt;EmailArchived&lt;/code&gt; event to the Real-time Communication Service (or a separate internal queue).&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;br&gt;&lt;li data-sourcepos=&quot;99:1-103:0&quot;&gt;&lt;p data-sourcepos=&quot;99:5-99:56&quot;&gt;&lt;strong&gt;Real-time Communication Service (if applicable):&lt;/strong&gt;&lt;/p&gt;&lt;ul data-sourcepos=&quot;100:5-103:0&quot;&gt;&lt;li data-sourcepos=&quot;100:5-100:37&quot;&gt;Receives &lt;code&gt;EmailArchived&lt;/code&gt; event.&lt;/li&gt;&lt;li data-sourcepos=&quot;101:5-103:0&quot;&gt;Pushes an update to all connected clients (e.g., other devices) for that user:&lt;ul data-sourcepos=&quot;102:9-103:0&quot;&gt;&lt;li data-sourcepos=&quot;102:9-103:0&quot;&gt;&lt;code&gt;WebSocket message: { &quot;type&quot;: &quot;emailUpdated&quot;, &quot;emailId&quot;: &quot;...&quot;, &quot;newStatus&quot;: &quot;archived&quot; }&lt;/code&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;br&gt;&lt;li data-sourcepos=&quot;104:1-106:0&quot;&gt;&lt;p data-sourcepos=&quot;104:5-104:34&quot;&gt;&lt;strong&gt;Other Clients (Listening):&lt;/strong&gt;&lt;/p&gt;&lt;ul data-sourcepos=&quot;105:5-106:0&quot;&gt;&lt;li data-sourcepos=&quot;105:5-106:0&quot;&gt;If the user has the email open on another device, that client receives the WebSocket update and refreshes its UI to show the email as archived.&lt;/li&gt;&lt;br&gt;&lt;/ul&gt;&lt;br&gt;&lt;/li&gt;&lt;br&gt;&lt;/ol&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="fayFRDLXmqZ6IOXXtcFV-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Step-by-Step Interaction Flow&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;h3 data-sourcepos=&quot;107:1-107:66&quot;&gt;&lt;/h3&gt;&lt;p&gt;&lt;/p&gt;&lt;ol data-sourcepos=&quot;66:1-106:0&quot;&gt;&lt;li data-sourcepos=&quot;66:1-73:0&quot;&gt;&lt;p data-sourcepos=&quot;66:5-66:38&quot;&gt;&lt;strong&gt;Client Action (User Archives)&quot;&lt;/strong&gt;&lt;/p&gt;&lt;ul data-sourcepos=&quot;67:5-73:0&quot;&gt;&lt;li data-sourcepos=&quot;67:5-67:67&quot;&gt;User clicks &quot;Archive&quot; on an email/conversation in the client.&lt;/li&gt;&lt;li data-sourcepos=&quot;68:5-68:150&quot;&gt;&lt;strong&gt;Client (Optimistic UI Update):&lt;/strong&gt; The client immediately moves the email to the &quot;Archive&quot; view locally, providing instant feedback to the user.&lt;/li&gt;&lt;li data-sourcepos=&quot;69:5-73:0&quot;&gt;&lt;strong&gt;Client (API Request):&lt;/strong&gt; The client sends an &lt;code&gt;HTTP POST&lt;/code&gt; request to the API Gateway:&lt;ul data-sourcepos=&quot;70:9-73:0&quot;&gt;&lt;li data-sourcepos=&quot;70:9-70:49&quot;&gt;&lt;code&gt;URL: /api/v1/emails/{emailId}/archive&lt;/code&gt;&lt;/li&gt;&lt;li data-sourcepos=&quot;71:9-71:96&quot;&gt;&lt;code&gt;Body: { &quot;userId&quot;: &quot;...&quot;, &quot;clientVersion&quot;: &quot;timestamp_or_version_id_of_email_state&quot; }&lt;/code&gt;&lt;/li&gt;&lt;li data-sourcepos=&quot;72:9-73:0&quot;&gt;&lt;em&gt;(Note: &lt;code&gt;clientVersion&lt;/code&gt; helps with optimistic concurrency. It indicates the state the client saw when it initiated the archive.)&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;br&gt;&lt;li data-sourcepos=&quot;74:1-78:0&quot;&gt;&lt;p data-sourcepos=&quot;74:5-74:20&quot;&gt;&lt;strong&gt;API Gateway:&lt;/strong&gt;&lt;/p&gt;&lt;ul data-sourcepos=&quot;75:5-78:0&quot;&gt;&lt;li data-sourcepos=&quot;75:5-75:27&quot;&gt;Receives the request.&lt;/li&gt;&lt;li data-sourcepos=&quot;76:5-76:44&quot;&gt;Authenticates and authorizes the user.&lt;/li&gt;&lt;li data-sourcepos=&quot;77:5-78:0&quot;&gt;Forwards the request to an available API Server.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;br&gt;&lt;li data-sourcepos=&quot;79:1-85:0&quot;&gt;&lt;p data-sourcepos=&quot;79:5-79:19&quot;&gt;&lt;strong&gt;API Server:&lt;/strong&gt;&lt;/p&gt;&lt;ul data-sourcepos=&quot;80:5-85:0&quot;&gt;&lt;li data-sourcepos=&quot;80:5-80:28&quot;&gt;Validates the request.&lt;/li&gt;&lt;li data-sourcepos=&quot;81:5-83:106&quot;&gt;&lt;strong&gt;Enqueues Archive Event:&lt;/strong&gt; Instead of directly updating the database, it publishes an &lt;code&gt;ArchiveEmailEvent&lt;/code&gt; message to the Message Queue.&lt;ul data-sourcepos=&quot;82:9-83:106&quot;&gt;&lt;li data-sourcepos=&quot;82:9-82:31&quot;&gt;&lt;code&gt;Topic: user_actions&lt;/code&gt;&lt;/li&gt;&lt;li data-sourcepos=&quot;83:9-83:106&quot;&gt;&lt;code&gt;Message: { &quot;type&quot;: &quot;ArchiveEmail&quot;, &quot;emailId&quot;: &quot;...&quot;, &quot;userId&quot;: &quot;...&quot;, &quot;clientVersion&quot;: &quot;...&quot; }&lt;/code&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li data-sourcepos=&quot;84:5-85:0&quot;&gt;Sends an &lt;code&gt;HTTP 202 Accepted&lt;/code&gt; response back to the client immediately (indicating the request is being processed asynchronously).&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;br&gt;&lt;li data-sourcepos=&quot;86:1-98:0&quot;&gt;&lt;p data-sourcepos=&quot;86:5-86:62&quot;&gt;&lt;strong&gt;Action Processor Worker (Consumes from Message Queue):&lt;/strong&gt;&lt;/p&gt;&lt;ul data-sourcepos=&quot;87:5-98:0&quot;&gt;&lt;li data-sourcepos=&quot;87:5-87:78&quot;&gt;A worker consumes the &lt;code&gt;ArchiveEmailEvent&lt;/code&gt; from the &lt;code&gt;user_actions&lt;/code&gt; queue.&lt;/li&gt;&lt;li data-sourcepos=&quot;88:5-88:137&quot;&gt;&lt;strong&gt;Database Read:&lt;/strong&gt; Fetches the current state of the &lt;code&gt;emailId&lt;/code&gt; from the Database (e.g., conversation state, last updated timestamp).&lt;/li&gt;&lt;li data-sourcepos=&quot;89:5-92:102&quot;&gt;&lt;strong&gt;Conflict Detection:&lt;/strong&gt; Compares the &lt;code&gt;clientVersion&lt;/code&gt; from the event with the &lt;code&gt;lastUpdated&lt;/code&gt; timestamp in the database.&lt;ul data-sourcepos=&quot;90:9-92:102&quot;&gt;&lt;li data-sourcepos=&quot;90:9-91:167&quot;&gt;&lt;strong&gt;If &lt;code&gt;clientVersion&lt;/code&gt; is older than &lt;code&gt;lastUpdated&lt;/code&gt; (conflict detected):&lt;/strong&gt; This means the email state has changed &lt;em&gt;after&lt;/em&gt; the client initiated the archive but &lt;em&gt;before&lt;/em&gt; this worker processed it (e.g., a new thread arrived).&lt;ul data-sourcepos=&quot;91:13-91:167&quot;&gt;&lt;li data-sourcepos=&quot;91:13-91:167&quot;&gt;&lt;strong&gt;Conflict Resolution (Archive Wins):&lt;/strong&gt; The worker proceeds to archive the email anyway. Any new threads for this email will also be considered archived.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li data-sourcepos=&quot;92:9-92:102&quot;&gt;&lt;strong&gt;If &lt;code&gt;clientVersion&lt;/code&gt; matches or is newer (no conflict):&lt;/strong&gt; The state is as the client saw it.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li data-sourcepos=&quot;93:5-95:41&quot;&gt;&lt;strong&gt;Database Write:&lt;/strong&gt; Updates the email/conversation record in the Database:&lt;ul data-sourcepos=&quot;94:9-95:41&quot;&gt;&lt;li data-sourcepos=&quot;94:9-94:35&quot;&gt;Set &lt;code&gt;status = &#39;ARCHIVED&#39;&lt;/code&gt;&lt;/li&gt;&lt;li data-sourcepos=&quot;95:9-95:41&quot;&gt;Update &lt;code&gt;lastUpdated&lt;/code&gt; timestamp.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li data-sourcepos=&quot;96:5-96:102&quot;&gt;&lt;strong&gt;Cache Invalidation:&lt;/strong&gt; Invalidates relevant entries in the Cache (e.g., the user&#39;s inbox view).&lt;/li&gt;&lt;li data-sourcepos=&quot;97:5-98:0&quot;&gt;&lt;strong&gt;Real-time Update (Optional/Important):&lt;/strong&gt; Publishes an &lt;code&gt;EmailArchived&lt;/code&gt; event to the Real-time Communication Service (or a separate internal queue).&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;br&gt;&lt;li data-sourcepos=&quot;99:1-103:0&quot;&gt;&lt;p data-sourcepos=&quot;99:5-99:56&quot;&gt;&lt;strong&gt;Real-time Communication Service (if applicable):&lt;/strong&gt;&lt;/p&gt;&lt;ul data-sourcepos=&quot;100:5-103:0&quot;&gt;&lt;li data-sourcepos=&quot;100:5-100:37&quot;&gt;Receives &lt;code&gt;EmailArchived&lt;/code&gt; event.&lt;/li&gt;&lt;li data-sourcepos=&quot;101:5-103:0&quot;&gt;Pushes an update to all connected clients (e.g., other devices) for that user:&lt;ul data-sourcepos=&quot;102:9-103:0&quot;&gt;&lt;li data-sourcepos=&quot;102:9-103:0&quot;&gt;&lt;code&gt;WebSocket message: { &quot;type&quot;: &quot;emailUpdated&quot;, &quot;emailId&quot;: &quot;...&quot;, &quot;newStatus&quot;: &quot;archived&quot; }&lt;/code&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;br&gt;&lt;li data-sourcepos=&quot;104:1-106:0&quot;&gt;&lt;p data-sourcepos=&quot;104:5-104:34&quot;&gt;&lt;strong&gt;Other Clients (Listening):&lt;/strong&gt;&lt;/p&gt;&lt;ul data-sourcepos=&quot;105:5-106:0&quot;&gt;&lt;li data-sourcepos=&quot;105:5-106:0&quot;&gt;If the user has the email open on another device, that client receives the WebSocket update and refreshes its UI to show the email as archived.&lt;/li&gt;&lt;br&gt;&lt;/ul&gt;&lt;br&gt;&lt;/li&gt;&lt;br&gt;&lt;/ol&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="650" y="170" width="1030" height="820" as="geometry" />
         </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="rALfuad4Qh_uQDgmbCsA" name="Page-26">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="wOJAt_Ml2JNlColyZzUG" name="Page-27">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="TDEI9Avm7I9ems5EnI-q" name="Page-28">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="6dclENaqeXLXrmWHpFiD" name="Page-29">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
