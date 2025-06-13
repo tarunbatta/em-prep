@@ -1,14 +1,35 @@
 #!/bin/bash
 
-# Create output directory if it doesn't exist
-mkdir -p system-design/svg
+# Path to draw.io executable
+DRAWIO="/Applications/draw.io.app/Contents/MacOS/draw.io"
 
-# Convert each draw.io file to SVG
-for file in system-design/*.drawio; do
-    if [ -f "$file" ]; then
-        filename=$(basename "$file" .drawio)
-        echo "Converting $file to SVG..."
-        docker run --rm -v "$(pwd):/data" jgraph/drawio-cli -x "$file" -o "system-design/svg/${filename}.svg"
+# Check if draw.io is installed
+if [ ! -f "$DRAWIO" ]; then
+    echo "Error: draw.io is not installed."
+    echo "Please install draw.io desktop application using:"
+    echo "brew install --cask drawio"
+    exit 1
+fi
+
+# Function to convert draw.io files to SVG
+convert_to_svg() {
+    local dir="$1"
+    for file in "$dir"/*.drawio; do
+        if [ -f "$file" ]; then
+            filename=$(basename "$file" .drawio)
+            echo "Converting $file to SVG..."
+            "$DRAWIO" -x "$file" -o "${dir}/${filename}.svg"
+        fi
+    done
+}
+
+# Convert files in system-design directory
+convert_to_svg "system-design"
+
+# Convert files in all subdirectories
+for dir in system-design/*/; do
+    if [ -d "$dir" ]; then
+        convert_to_svg "$dir"
     fi
 done
 
