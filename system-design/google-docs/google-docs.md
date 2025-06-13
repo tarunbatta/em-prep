@@ -24,4 +24,6 @@ Google Docs is a cloud-based document editing and collaboration platform that en
 
 ## Additional Notes
 
-## Components
+### Video
+
+[![Google Docs System Design Video](https://img.youtube.com/vi/9JKBlkwg0yM/0.jpg)](https://www.youtube.com/watch?v=9JKBlkwg0yM)

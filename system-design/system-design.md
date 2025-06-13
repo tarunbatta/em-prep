@@ -7,28 +7,29 @@ This directory contains system design documentation for various systems, each or
 ## Systems
 
 1. [Amazon Prime](amazon-prime/amazon-prime.md)
-1. [Autocomplete Search](autocomplete-search/autocomplete-search.md)
-1. [Chat System](chat-system/chat-system.md)
-1. [DocuSign](docusign/docusign.md)
-1. [Dropbox](dropbox/dropbox.md)
-1. [Email Archive](email-archive/email-archive.md)
-1. [Google Drive](google-drive/google-drive.md)
-1. [Google Docs](google-docs/google-docs.md)
-1. [Instagram](instagram/instagram.md)
-1. [News Feed](news-feed/news-feed.md)
-1. [Notification System](notification-system/notification-system.md)
-1. [Parking Garage](parking-garage/parking-garage.md)
-1. [PasteBin](pastebin/pastebin.md)
-1. [Rate Limiter](rate-limiter/rate-limiter.md)
-1. [Shopify](shopify/shopify.md)
-1. [Tag Service](tag-service/tag-service.md)
-1. [Template](template/template.md)
-1. [TicketMaster](ticketmaster/ticketmaster.md)
-1. [TikTok](tiktok/tiktok.md)
-1. [Uber](uber/uber.md)
-1. [URL Shortener](url-shortener/url-shortener.md)
-1. [Web Crawler](webcrawler/webcrawler.md)
-1. [YouTube](youtube/youtube.md)
+2. [Autocomplete Search](autocomplete-search/autocomplete-search.md)
+3. [Bitly](bitly/bitly.md)
+4. [DocuSign](docusign/docusign.md)
+5. [Dropbox](dropbox/dropbox.md)
+6. [Email Archive](email-archive/email-archive.md)
+7. [Google Drive](google-drive/google-drive.md)
+8. [Google Docs](google-docs/google-docs.md)
+9. [Instagram](instagram/instagram.md)
+10. [News Feed](news-feed/news-feed.md)
+11. [Notification System](notification-system/notification-system.md)
+12. [Parking Garage](parking-garage/parking-garage.md)
+13. [PasteBin](pastebin/pastebin.md)
+14. [Rate Limiter](rate-limiter/rate-limiter.md)
+15. [Shopify](shopify/shopify.md)
+16. [Tag Service](tag-service/tag-service.md)
+17. [Template](template/template.md)
+18. [TicketMaster](ticketmaster/ticketmaster.md)
+19. [TikTok](tiktok/tiktok.md)
+20. [Twitter](twitter/twitter.md)
+21. [Uber](uber/uber.md)
+22. [Web Crawler](webcrawler/webcrawler.md)
+23. [Whatsapp](whatsapp/whatsapp.md)
+24. [YouTube](youtube/youtube.md)
 
 ## Easy to remember numbers for back-of-the-envelope calculations in system design interviews
 
@@ -102,3 +103,7 @@ Numbers for requests calculations
 100 million reqs/month -->  40 reqs/sec
 1 billion reqs/month   --> 400 reqs/sec
 ```
+
+References
+
+* https://github.com/donnemartin/system-design-primer

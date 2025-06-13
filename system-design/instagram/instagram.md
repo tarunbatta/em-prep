@@ -102,3 +102,7 @@ Follower
 
 push model for majority of users i.e. when user posts the the feed caches of their followers are updates
 pull model for celebrities where users are forced to get the latest posts from celebrities they follow
+
+### Video
+
+[![Instagram System Design Video](https://img.youtube.com/vi/anM-cr6RqDI/0.jpg)](https://www.youtube.com/watch?v=anM-cr6RqDI)

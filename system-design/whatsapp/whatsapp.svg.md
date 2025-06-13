@@ -23,3 +23,7 @@ A chat system enables real-time communication between users through text message
 [Download Draw.io File](chat-system.drawio)
 
 ## Additional Notes
+
+### Video
+
+[![WhatsApp System Design Video](https://img.youtube.com/vi/cr6p0n0N-VA/0.jpg)](https://www.youtube.com/watch?v=cr6p0n0N-VA)
