@@ -23,3 +23,38 @@ A rate limiter is a system component that controls the rate of requests a servic
 [Download Draw.io File](rate-limiter.drawio)
 
 ## Additional Notes
+
+Rate Limiter
+Specified no of requests in specified period of time
+
+Prevent DDos attacks
+
+Reduce Cost as less servers are needed
+
+Prevents load on the Server
+
+Requirements
+Server Side Rate Limiter since Client Side could be forged or bypassed
+
+Throttle based on identifier such as UserId, IP Address
+
+IP Address better since it helps narrow down user, however new userId can be created on the fly.
+
+Inform the user when they are blocked
+
+Http protocol with 429 status code to tell Too Many Requests
+
+Instrumentation and Traffic Pattern analysis
+
+Different algorithm Options,
+
+- Token Bucket System
+- Fixed Window System
+- Sliding Window:
+
+What to do when users get rate limited
+Discuss traffic patterns when integrating
+
+Consider moving to higher plan
+
+Handle scenario gracefully. Eg, retry

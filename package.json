@@ -6,8 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "convert-diagrams": "./scripts/convert-diagrams.sh",
-    "format-markdowns": "./scripts/format-markdowns.sh"
+    "convert-diagrams": "./scripts/convert-diagrams.sh"
   },
   "repository": {
     "type": "git",
@@ -18,7 +17,8 @@
     "interview",
     "preparation",
     "system-design",
-    "behavioural"
+    "behavioural",
+    "interview-prep"
   ],
   "author": "Tarun Batta",
   "license": "MIT",
