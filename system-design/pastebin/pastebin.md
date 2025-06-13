@@ -1,3 +1,5 @@
+[← Back to System Design](../system-design.md)
+
 # PasteBin System Design
 
 ## Overview

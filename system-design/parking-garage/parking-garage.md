@@ -1,3 +1,5 @@
+[← Back to System Design](../system-design.md)
+
 # Parking Garage System Design
 
 ## Overview

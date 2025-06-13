@@ -1,11 +1,18 @@
 # EM Interview Preparation
 
-This repository contains preparation materials for Engineering Manager (EM) interviews, organized into different sections:
+This repository contains preparation materials for Engineering Manager (EM) interviews, organized into different sections.
+
+## Navigation
+
+- [System Design](system-design/README.md) - System design interview preparation materials
+- [Behavioural](behavioural/README.md) - Behavioural interview preparation materials
 
 ## Structure
 
 - `system-design/`: Contains system design interview preparation materials
+  - [View System Design Topics](system-design/README.md)
 - `behavioural/`: Contains behavioural interview preparation materials
+  - [View Behavioural Topics](behavioural/README.md)
 
 ## Getting Started
 
