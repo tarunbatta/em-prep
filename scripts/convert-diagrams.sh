@@ -14,12 +14,20 @@ get_file_hash() {
     fi
 }
 
+# Function to get relative path
+get_relative_path() {
+    local file="$1"
+    # Remove leading ./ if present
+    echo "${file#./}"
+}
+
 # Function to check if file needs conversion
 needs_conversion() {
     local drawio_file="$1"
+    local rel_file=$(get_relative_path "$drawio_file")
     local hash=$(get_file_hash "$drawio_file")
-    local stored_hash=$(grep "^$drawio_file:" "$TRACKING_FILE" 2>/dev/null | cut -d':' -f2)
-    
+    local stored_hash=$(grep "^$rel_file:" "$TRACKING_FILE" 2>/dev/null | cut -d':' -f2)
+
     if [ "$hash" != "$stored_hash" ]; then
         return 0  # Needs conversion
     else
@@ -30,12 +38,12 @@ needs_conversion() {
 # Function to update tracking file
 update_tracking() {
     local drawio_file="$1"
+    local rel_file=$(get_relative_path "$drawio_file")
     local hash=$(get_file_hash "$drawio_file")
-    
     # Remove old entry if exists
-    sed -i '' "/^$drawio_file:/d" "$TRACKING_FILE" 2>/dev/null
+    sed -i '' "/^$rel_file:/d" "$TRACKING_FILE" 2>/dev/null
     # Add new entry
-    echo "$drawio_file:$hash" >> "$TRACKING_FILE"
+    echo "$rel_file:$hash" >> "$TRACKING_FILE"
 }
 
 # Function to convert a single diagram
@@ -64,7 +72,7 @@ main() {
     touch "$TRACKING_FILE"
     
     # Find all draw.io files
-    find system-design -type f -name "*.drawio" | while read -r file; do
+    find system-design -type f -name "*.drawio" | sort | while read -r file; do
         if needs_conversion "$file"; then
             convert_diagram "$file"
         else
