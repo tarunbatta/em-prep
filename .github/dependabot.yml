@@ -1,27 +1,49 @@
 version: 2
 updates:
   # Enable version updates for npm
-  - package-ecosystem: "npm"
-    # Look for `package.json` and `lock` files in the `root` directory
-    directory: "/"
-    # Check for updates once a week
+  - package-ecosystem: 'npm'
+    directory: '/'
     schedule:
-      interval: "weekly"
-    # Specify labels for pull requests
-    labels:
-      - "dependencies"
-      - "npm"
-    # Set the version update strategy
-    versioning-strategy: auto
-    # Limit the number of open pull requests
+      interval: 'weekly'
+      day: 'monday'
+      time: '09:00'
     open-pull-requests-limit: 10
+    reviewers:
+      - 'tarunbatta'
+    assignees:
+      - 'tarunbatta'
+    commit-message:
+      prefix: 'deps'
+      include: 'scope'
+    labels:
+      - 'dependencies'
+      - 'automated'
+    ignore:
+      # Ignore major version updates for React to avoid breaking changes
+      - dependency-name: 'react'
+        update-types: ['version-update:semver-major']
+      - dependency-name: 'react-dom'
+        update-types: ['version-update:semver-major']
+      - dependency-name: '@types/react'
+        update-types: ['version-update:semver-major']
+      - dependency-name: '@types/react-dom'
+        update-types: ['version-update:semver-major']
 
   # Enable version updates for GitHub Actions
-  - package-ecosystem: "github-actions"
-    directory: "/"
+  - package-ecosystem: 'github-actions'
+    directory: '/'
     schedule:
-      interval: "weekly"
+      interval: 'weekly'
+      day: 'monday'
+      time: '09:00'
+    open-pull-requests-limit: 5
+    reviewers:
+      - 'tarunbatta'
+    assignees:
+      - 'tarunbatta'
+    commit-message:
+      prefix: 'ci'
+      include: 'scope'
     labels:
-      - "dependencies"
-      - "github-actions"
-    open-pull-requests-limit: 10
+      - 'github-actions'
+      - 'automated'
